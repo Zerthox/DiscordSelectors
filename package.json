@@ -1,0 +1,29 @@
+{
+	"name": "discordselectors",
+	"version": "0.1.0-dev",
+	"description": "Collection of CSS Selectors for Discord.",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "gulp build",
+		"watch": "gulp watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Zerthox/DiscordSelectors.git"
+	},
+	"author": "Zerthox",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Zerthox/DiscordSelectors/issues"
+	},
+	"homepage": "https://github.com/Zerthox/DiscordSelectors#readme",
+	"devDependencies": {
+		"del": "^4.1.1",
+		"gulp": "^4.0.2",
+		"gulp-concat": "^2.6.1",
+		"gulp-file": "^0.4.0",
+		"gulp-header": "^2.0.7",
+		"gulp-merge-json": "^1.3.1",
+		"gulp-yaml": "^2.0.0"
+	}
+}
