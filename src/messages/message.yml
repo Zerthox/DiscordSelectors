@@ -1,0 +1,34 @@
+# MESSAGES
+messagesWrapper: .messagesWrapper-3lZDfY
+messages: .messages-3amgkR
+messageGroup: .container-1YxwTf
+messageGroupLocalBot: .isLocalBot-38G0P0
+messageGroupLocalBotMessage: .localBotMessage-1cGMdw
+messageGroupBlocked: .messageGroupBlocked-3wrQQX
+messageGroupBlockedRevealed: .revealed-1_RKsf
+messageGroupBlockedButton: .messageGroupBlockedBtn-1PBBh-
+message: .message-1PNnaP
+messageHeaderCozy: .headerCozy-2N9HOL
+messageHeaderCompact: .headerCompact-3wRt2W
+# messageHeader: %messageHeaderCozy, %messageHeaderCompact
+messageHeaderCozyMeta: .headerCozyMeta-rdohGq
+messageUsernameWrapper: .usernameWrapper-1S-G5O
+messageUsername: .username-_4ZSMR
+messageTimestampCozy: .timestampCozy-2hLAPV
+messageTimestampCompact: .timestampCompact-MHgFLv
+messageSystemTimestamp: .timestamp-1E3uAL
+# messageTimestamp: %messageTimestampCozy, %messageTimestampCompact, %messageSystemTimestamp
+messageContent: .content-3dzVd8
+messageSystemContainer: .container-3-pyIM
+mentioned: .isMentioned-N-h9aa
+markup: .markup-2BOw-j
+messageSystemIcon: .icon-2Po-VO
+mention: .wrapper-3WhCwL
+roleMention: .mention
+anchor: .anchor-3Z-8Bb
+anchorUnderlineOnHover: .anchorUnderlineOnHover-2ESHQB
+messageButtonContainer: .buttonContainer-KtQ8wc
+messageReactionButton: .reactionBtn-2na4rd
+messageOptionsButton: .button-3Jq0g9
+# messageButton: %messageReactionButton, %messageOptionsButton
+# messageButtonPopoutOpen: %messageButton.popout-open

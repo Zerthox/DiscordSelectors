@@ -1,0 +1,14 @@
+# CATEGORY
+categoryContainerDefault: .containerDefault-3GGEv_
+categoryContainerUserOver: .containerUserOver-1Tcb7l
+categoryContainerDragBefore: .containerDragBefore-3Dzc5x
+categoryContainerDragAfter: .containerDragAfter-3TEhpe
+# categoryContainerDrag: %categoryContainerDragBefore, %categoryContainerDragAfter
+# categoryContainer: %categoryContainerDefault, %categoryContainerDrag, %categoryContainerUserOver
+categoryWrapper: .wrapper-CU3qI5
+categoryWrapperClickable: .clickable-18m--O
+categoryWrapperCollapsed: .collapsed-4WdoJ7
+categoryWrapperMuted: .muted-1NRuDm
+categoryIcon: .icon-WnO6o2
+categoryName: .name-IbjUBS
+categoryButtons: .children-13TY0l

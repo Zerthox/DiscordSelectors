@@ -1,0 +1,33 @@
+# HEADER BAR SEARCH BARS
+
+# Chat Search
+chatSearch: .search-2oPWTC
+chatSearchOpen: .open-6_Y_aH
+chatSearchFocused: .focused-31_ccS
+chatSearchBar: .searchBar-3dMhjb
+chatSearchRoot: .DraftEditor-root
+chatSearchPlaceholder: .public-DraftEditorPlaceholder-root
+chatSearchFilter: .searchFilter-2ESiM3
+chatSearchAnswer: .searchAnswer-3Dz2-q
+
+# Library Search
+librarySearch: .libraryFilter-31ZUa2
+librarySearchFocused: .focused-2eiV0o
+librarySearchBar: .container-cMG81i
+librarySearchBarInner: .inner-2P4tQO
+librarySearchInput: .input-3Xdcic
+librarySearchIconLayout: .iconLayout-3OgqU3
+librarySearchIcon: .icon-1S6UIr
+librarySearchIconClear: .clear--Eywng
+
+# Store Search
+storeSearch: .browseSearch-e9jF-f
+storeSearchFocused: .focused-20l6Zp
+storeSearchBar: .container-cMG81i
+storeSearchBarInner: .inner-2P4tQO
+storeSearchInput: .input-3Xdcic
+storeSearchIconLayout: .iconLayout-3OgqU3
+storeSearchIconContainer: .iconContainer-2wXvy1
+storeSearchIcon: .icon-1S6UIr
+storeSearchIconVisible: .visible-3bFCH-
+storeSearchIconClear: .clear--Eywng

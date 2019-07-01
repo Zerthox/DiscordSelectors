@@ -1,0 +1,19 @@
+# TAB BAR
+tabBarItem: .item-PXvHYJ
+tabBarItemSelected: .selected-3s45Ha
+tabBarItemPrimary: .primary-3j8BhM
+tabBarItemPrimarySelected: .primarySelected-3uHKZn
+tabBarHeader: .header-2RyJ0Y
+tabBarSeparator: .separator-gCa7yv
+
+# Header Bar
+headerBarTabBar: .tabBar-1E2ExX
+
+# Messages Popout
+messagesPopoutTabBar: .tabBar-2UKwcE
+messagesPopoutTabBarItem: .tabBarItem-1Cg-MI
+
+# User Modal
+userModalTabBarContainer: .tabBarContainer-1s1u-z
+userModalTabBar: .tabBar-2MuP6-
+userModalTabBarItem: .tabBarItem-1b8RUP

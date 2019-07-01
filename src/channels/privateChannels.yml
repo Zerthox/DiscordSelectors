@@ -1,0 +1,19 @@
+# PRIVATE CHANNELS
+privateChannels: .privateChannels-1nO12o
+privateChannel: .channel-2QD9_O
+privateChannelSelected: .selected-1HYmZZ
+privateChannelIcon: .linkButtonIcon-Mlm5d6
+privateChannelNameWrapper: .nameWrapper-10v56U
+privateChannelName: .name-2WpE7M
+privateChannelNameWithActivity: .nameWithActivity-1ceSyU
+privateChannelActivity: .activity-525YDR
+privateChannelActivityIcon: .activityIcon-1mtTk4
+privateChannelActivityIconForeground: .activityIconForeground-3VIgI8
+privateChannelMobileIndicator: .mobileIndicator-3gyhuE
+privateChannelClose: .close-3hZ5Ni
+
+# Search Bar
+privateChannelsSearchBar: .searchBar-6Kv8R2
+privateChannelsSearchBarComponent: .searchBarComponent-32dTOx
+privateChannelsSearchBarInner: .inner-3ErfO
+privateChannelsSearchBarInput: .input-1Rv96N

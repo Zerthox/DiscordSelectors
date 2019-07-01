@@ -1,0 +1,27 @@
+# MEMBERS
+membersWrap: .membersWrap-2h-GB4
+members: .members-1998pB
+membersGroup: .membersGroup-v9BXpm
+member: .member-3W1lQa
+memberOffline: .memberOffline-2lN7gt
+memberPopoutOpen: .member-3W1lQa.popout-open
+memberContent: .content-OzHfo4
+memberInner: .memberInner-2CPc3V
+memberNameTag: .nameTag-3p0yK-
+memberUsername: .username-1cB_5E
+memberIcon: .icon-1mmpLU
+memberOwnerIcon: .ownerIcon-uZ6mE7
+memberPremiumIcon: .premiumIcon-2IFPOX
+memberActivity: .activity-1IYsbk
+memberActivityText: .activityText-sLG0UL
+memberActivityIcon: .activityIcon-S3CciC
+memberActivityIconForeground: .activityIconForeground-qYIPPg
+memberMobileIndicator: .mobileIndicator-329Gd6
+
+# Placeholders
+memberGroupPlaceholder: .memberGroupsPlaceholder-3mwPub
+memberPlaceholder: .placeholder-3KRNN9
+memberPlaceholderMultiple: .multiplePlaceholder-M9zbu6
+memberPlaceholderAvatar: .placeholderAvatar-damqh6
+memberPlaceholderUsername: .placeholderUsername-2B_OA9
+memberPlaceholderUsernameMultiple: .mulitplePlaceholderUsername-pogq9I

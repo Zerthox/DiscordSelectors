@@ -1,0 +1,26 @@
+# CHANNEL LIST PANELS
+panelButton: .button-s03oPN
+panelButtonDisabled: .disabled-1ZY10C
+panelButtonIcon: .buttonIcon-3yYVOH
+
+# Account Panel
+accountPanel: .container-2Thooq
+accountPanelAvatarWrapper: .avatar-3JE4B3
+accountPanelAvatar: .inner-1W0Bkn
+accountPanelNameTag: .nameTag-LxtdSI
+accountPanelUsernameContainer: .usernameContainer-1GWXka
+accountPanelUsername: .username-u0EL4I
+accountPanelDiscriminator: .discriminator-3W31ZY
+
+# Connection Panel
+connectionPanel: .container-1UB9sr
+connectionPanelInner: .inner-btChU7
+rtcConnectionStatus: .rtc-connection-status
+rtcConnectionStatusConnected: .rtc-connection-status-connected
+rtcConnectionStatusConnecting: .rtc-connection-status-connecting
+rtcConnectionStatusError: .rtc-connection-status-error
+rtcConnectionQualityFine: .rtc-connection-quality-fine
+rtcConnectionQualityAverage: .rtc-connection-quality-average
+rtcConnectionQualityBad: .rtc-connection-quality-bad
+rtcConnectionPing: .ping
+connectionPanelChannel: .channel-SEolQq

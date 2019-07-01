@@ -1,0 +1,40 @@
+# CHANNELS
+
+# Voice & Text Channels
+channelContainerDefault: .containerDefault-1ZnADq
+channelContainerDragAfter: .containerDragAfter-1F4fgZ
+channelContainerDragBefore: .containerDragBefore-31UGCO
+channelContainerUserOver: .containerUserOver-1U5YnL
+# channelContainerDrag: %channelContainerDragBefore, %channelContainerDragAfter
+# channelContainer: %channelContainerDefault, %channelContainerDrag, %channelContainerUserOver
+channelWrapper: .wrapper-1ucjTd
+channelWrapperUnread: .modeUnread-1zpFdA
+channelWrapperSelected: .modeSelected-1zApJ_
+channelWrapperConnected: .modeConnected-2IEL4z
+channelWrapperMuted: .modeMuted-3osy7j
+channelContent: .content-3at_AU
+channelIcon: .icon-1_QxNX
+channelName: .name-3_Dsmg
+channelButtons: .children-Bmpf2Q
+channelButton: .iconItem-1-bXkn
+channelActionIcon: .actionIcon-2Hi9ZG
+channelUnreadPill: .unread-3zKkbm
+channelBadge: .mentionsBadge-7f5lud
+channelUserLimit: .userLimit-64AFxe
+channelUserLimitWrapper: .wrapper-pZmgj4
+channelUserLimitUsers: .users-i_3-kL
+channelUserLimitTotal: .total-3tKGEB
+
+# Voice User List
+voiceUserList: .listDefault-2y5Z9D
+voiceUserDraggable: .draggable-1KoBzC
+voiceUser: .voiceUser-14U_Ns
+voiceUserSelected: .selected-3TGCSZ
+voiceUserContent: .content-3xS9Lh
+voiceUserAvatar: .avatarContainer-2inGBK
+voiceUserAvatarSpeaking: .avatarSpeaking-3MqCHL
+voiceUserName: .username-lm8y6T
+voiceUserNameSpeaking: .usernameSpeaking-2xbKKh
+voiceUserIcons: .icons-3q-_6z
+voiceUserIconSpacing: .iconSpacing-3LzVxF
+voiceUserIcon: .icon-3BcwQu

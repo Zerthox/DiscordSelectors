@@ -1,0 +1,38 @@
+# BUTTON
+button: .button-38aScr
+buttonHasHover: .hasHover-3X1-zV
+buttonFilled: .lookFilled-1Gx00P
+buttonInverted: .lookInverted-2D7oAl
+buttonOutlined: .lookOutlined-3sRXeN
+buttonLink: .lookLink-9FtZy-
+buttonBrand: .colorBrand-3pXr91
+buttonPrimary: .colorPrimary-3b3xI6
+buttonWhite: .colorWhite-rEQuAQ
+buttonGreen: .colorGreen-29iAKY
+buttonRed: .colorRed-1TFJan
+buttonGrey: .colorGrey-2DXtkV
+buttonContents: .contents-18-Yxp
+# buttonOutlinedBrand: %buttonOutlined%buttonBrand
+# buttonOutlinedPrimary: %buttonOutlined%buttonPrimary
+# buttonOutlinedWhite: %buttonOutlined%buttonWhite
+# buttonOutlinedGreen: %buttonOutlined%buttonGreen
+# buttonOutlinedRed: %buttonOutlined%buttonRed
+# buttonOutlinedGrey: %buttonOutlined%buttonGrey
+# buttonFilledBrand: %buttonFilled%buttonBrand
+# buttonFilledPrimary: %buttonFilled%buttonPrimary
+# buttonFilledWhite: %buttonFilled%buttonWhite
+# buttonFilledGreen: %buttonFilled%buttonGreen
+# buttonFilledRed: %buttonFilled%buttonRed
+# buttonFilledGrey: %buttonFilled%buttonGrey
+# buttonInvertedBrand: %buttonInverted%buttonBrand
+# buttonInvertedPrimary: %buttonInverted%buttonPrimary
+# buttonInvertedWhite: %buttonInverted%buttonWhite
+# buttonInvertedGreen: %buttonInverted%buttonGreen
+# buttonInvertedRed: %buttonInverted%buttonRed
+# buttonInvertedGrey: %buttonInverted%buttonGrey
+# buttonLinkBrand: %buttonLink%buttonBrand
+# buttonLinkPrimary: %buttonLink%buttonPrimary
+# buttonLinkWhite: %buttonLink%buttonWhite
+# buttonLinkGreen: %buttonLink%buttonGreen
+# buttonLinkRed: %buttonLink%buttonRed
+# buttonLinkGrey: %buttonLink%buttonGrey
