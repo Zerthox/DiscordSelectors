@@ -1,0 +1,52 @@
+# SERVER DISCOVERY
+pageWrapper: .pageWrapper-1PgVDX
+discoveryBG: .bg-AYqtMd
+pageHeader: .pageHeader-3615mp
+pageBody: .body-2lagau
+
+# Search
+discoverySearch: .search-JQJ-3r
+discoveryMainHeader: .mainHeader-1i17pL
+discoverySearchBox: .searchBox-26HYGw
+searchBox: .searchBox-3Y2Vi7
+searchBoxInput: .searchBoxInput-uJtBcv
+searchBoxIconSearch: .searchIcon-1a1-yA
+searchBoxIconClear: .clearIcon-2N9YIn
+searchHelpText: .searchHelpText-19imBp
+searchHelpTextVisible: .searchHelpTextVisible-1mRnNd
+
+# Guild List
+discoverySectionHeader: .sectionHeader-1Hee-5
+discoveryGuildList: .guildList-1ItbxP
+discoveryGuildCard: .guildCard-2arfcG
+discoveryGuildCardLoading: .loading-17PYl_
+discoveryGuildCardLoaded: .loaded-1eBnjq
+discoveryCard: .card-3DjzTQ
+discoveryCardHovered: .cardHovered-15wbb-
+discoveryCardSplash: .splash-3N0nhD
+discoveryCardFade: .fade-rdt5qH
+discoveryGuildInfo: .guildInfo-2wGKIg
+discoveryGuildIcon: .guildIcon-3W0pfo
+discoveryGuildAvatar: .avatar-22otdK
+discoveryGuildVerifiedIcon: .verifiedIcon-1vpk3S
+discoveryGuildTitle: .title-OqQvkN
+discoveryGuildMemberInfo: .memberInfo-3r4FKx
+discoveryGuildStatusOnline: .dotOnline-8Ag7EB
+discoveryGuildStatusOffline: .dotOffline-3DXoDy
+discoveryViewButton: .viewButton-3jDZqV
+discoveryViewButtonVisible: .viewButtonVisible-2AtUPc
+discoverySectionSeparator: .sectionSeparator-2OWiNT
+
+# Page Control
+discoveryPageControlContainer: .pageControlContainer-3czZwE
+discoveryPageControl: .pageControl-1aUwvK
+discoveryPageButton: .pageButton-MknE-_
+discoveryPageButtonEnd: .endButton-3wGL3C
+discoveryPageButtonRound: .roundButton-2CW1Hh
+discoveryPageButtonActive: .activeButton-1BJAiN
+
+# Empty
+discoveryEmptyResults: .emptySearchResults-1ba__I
+discoveryEmptyImage: .emptySearchImage-1qOMLW
+discoveryEmptyTitle: .emptySearchTitle-2zDhhZ
+discoveryEmptyDescription: .emptySearchDescription-2AmfE4
