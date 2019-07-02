@@ -1,0 +1,57 @@
+# USER MODAl
+userModal: .root-SR8cQa
+
+# Header
+userModalTopSectionNormal: .topSectionNormal-2-vo2m
+userModalTopSectionPlaying: .topSectionPlaying-1J5E4n
+userModalTopSectionStreaming: .topSectionStreaming-1Tpf5X
+userModalTopSectionSpotify: .topSectionSpotify-1lI0-P
+userModalTopSectionXbox: .topSectionXbox-3fWLjS
+# userModalTopSection: %userModalTopSectionNormal, %userModalTopSectionPlaying, %userModalTopSectionStreaming, %userModalTopSectionSpotify, %userModalTopSectionXbox
+userModalHeaderInfo: .headerInfo-30uryT
+userModalNameTag: .nameTag-2IFDfL
+userModalUsername: .username-3gJmXY
+userModalDiscriminator: .discriminator-xUhQkU
+userModalAdditionalActionsIcon: .additionalActionsIcon-1FoUlE
+userModalHeaderFill: .headerFill-adLl4x
+userModalActivity: .activityProfile-2bJRaP
+
+# Profile Badges
+profileBadgeWrapper: .profileBadgeWrapper-rl_RO6
+profileBadge: .profileBadge-2BqF-Z
+profileBadgeStaff: .profileBadgeStaff-13GO7z
+profileBadgePartner: .profileBadgePartner-SjK6L2
+profileBadgeHypeSquad: .profileBadgeHypesquad-1YIe7Z
+profileBadgeHypeSquadHouse1: .profileBadgeHypeSquadOnlineHouse1-xN6tES
+profileBadgeHypeSquadHouse2: .profileBadgeHypeSquadOnlineHouse2-3jBpXR
+profileBadgeHypeSquadHouse3: .profileBadgeHypeSquadOnlineHouse3-1YbjMX
+profileBadgeHypeSquadHouse3KOH: .profileBadgeHypeSquadOnlineHouse3KOH-s5aYpz
+profileBadgeEarlySupporter: .profileBadgeEarlySupporter-PQB_0a
+profileBadgePremium: .profileBadgePremium-3kZ9Qj
+profileBadgeBugHunter: .profileBadgeBugHunter-IV0vLE
+profileBadgeGuildSubscriber: .profileGuildSubscriberlvl1-pKd1EZ
+
+# Body
+userModalBody: .body-3ND3kc
+userModalInfoSection: .userInfoSection-2acyCx
+userModalInfoSectionHeader: .userInfoSectionHeader-CBvMDh
+userModalNote: .note-QfFU8y
+userModalConnectedAccounts: .connectedAccounts-repVzS
+userModalConnectedAccount: .connectedAccount-36nQx7
+userModalConnectedAccountIcon: .connectedAccountIcon-3P3V6F
+userModalConnectedAccountNameInner: .connectedAccountNameInner-1phBvE
+userModalConnectedAccountName: .connectedAccountName-f8AEe2
+userModalConnectedAccountVerifiedIcon: .connectedAccountVerifiedIcon-3aZz_K
+userModalConnectedAccountOpenIcon: .connectedAccountOpenIcon-2cNbq5
+userModalEmptyIcon: .emptyIcon-pGTAhd
+userModalEmptyIconFriends: .emptyIconFriends-BrjhY9
+userModalEmptyIconGuilds: .emptyIconGuilds-3OViNh
+userModalEmptyIconStreamerMode: .emptyIconStreamerMode-3RfWOW
+userModalEmptyText: .emptyText-6tYmO5
+userModalListScroller: .listScroller-2_vlfo
+userModalListRow: .listRow-hutiT_
+userModalListAvatar: .listAvatar-1NlAhb
+userModalListRowConent: .listRowContent-3Kih4Q
+userModalListName: .listName-3w10cx
+userModalListGuildNick: .guildNick-3uAm3i
+userModalListDiscriminator: .listDiscriminator-253zfw
