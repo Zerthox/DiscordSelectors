@@ -1,0 +1,29 @@
+# USER POPOUT
+userPopout: .userPopout-3XzG_A
+
+# Header
+userPopoutHeader: .header-2BwW8b
+userPopoutHeaderPlaying: .headerPlaying-j0WQBV
+userPopoutHeaderStreaming: .headerStreaming-2FjmGz
+userPopoutHeaderSpotify: .headerSpotify-zpWxgT
+userPopoutHeaderXbox: .headerXbox-3G-4PF
+userPopoutActivity: .activityUserPopout-2yItg2
+userPopoutMobileIndicator: .mobileIndicator-29f8Xh
+userPopoutHeaderText: .headerText-2sdzFM
+userPopoutHeaderNameWrapper: .headerNameWrapper-3res2c
+userPopoutHeaderName: .headerName-fajvi9
+userPopoutNameTag: .nameTag-m8r81H
+userPopoutActions: .actionsUserPopout-2MrzCa
+userPopoutActionsListening: .listeningActionsUserPopout-Ga2V_N
+
+# Body
+userPopoutBody: .body-3iLsc4
+userPopoutBodyTitle: .bodyTitle-Y0qMQ
+userPopoutRolesList: .rolesList-22qj2L
+userPopoutNote: .note-3HfJZ5
+
+# Footer
+userPopoutFooter: .footer-1fjuF6
+userPopoutQuickMessage: .quickMessage-1yeL4E
+userPopoutPro: .pro-1T8RK7
+userPopoutTip: .tip-2ab612

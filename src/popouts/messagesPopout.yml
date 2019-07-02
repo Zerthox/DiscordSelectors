@@ -1,0 +1,17 @@
+# MESSAGES POPOUT
+messagesPopoutWrap: .messagesPopoutWrap-1MQ1bW
+messagesPopout: .messagesPopout-24nkyi
+mentionFilter: .mentionFilter-1PQ6ey
+mentionFilterLabel: .label-12YslM
+mentionFilterValue: .value-2k8Drt
+messagesPopoutChannelSeparator: .channelSeparator-1MxuvT
+messagesPopoutChannelName: .channelName-3kBz6H
+messagesPopoutGuildName: .guildName-1Bc3Ta
+messageGroupWrapper: .messageGroupWrapper-o-Zw7G
+messagesPopoutActionButtons: .actionButtons-1sUUug
+messagesPopoutJumpButton: .jumpButton-3DTcS_
+messagesPopoutCloseButton: .closeButton-17RIVZ
+recentMentionsFilterPopout: .recentMentionsFilterPopout-24_uDU
+messagesPopoutHasMore: .hasMore-sul95G
+messagesPopoutHasMoreButton: .hasMoreButton-1MELpI
+statusGreen: .statusGreen-pvYWjA
