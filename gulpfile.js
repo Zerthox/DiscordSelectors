@@ -37,7 +37,7 @@ function buildMap() {
 			edit: (content, file) => {
 				const r = {};
 				var o = r;
-				for (var s of file.relative.split("\\").slice(0, -1)) {
+				for (var s of file.relative.split(/[\\/]/).slice(0, -1)) {
 					o[s] = {};
 					o = o[s];
 				}
