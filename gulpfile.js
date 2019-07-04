@@ -11,8 +11,8 @@ const gulp = require("gulp"),
 
 const files = {
 	in: [
-		"src/**/*.yaml",
-		"src/**/*.yml"
+		"src/[^_]**/[^_]*.yaml",
+		"src/[^_]**/[^_]*.yml"
 	],
 	out: {
 		folder: "dist",
