@@ -1,0 +1,11 @@
+# BD EMOTE PICKER
+bdEmoteMenu: "#bda-qem"
+bdEmoteMenuTwitch: "#bda-qem-twitch"
+bdEmoteMenuFavourite: "#bda-qem-favourite"
+bdEmoteMenuEmojis: "#bda-qem-emojis"
+# bdEmoteMenuActive: %bdEmoteMenuTwitch.active, %bdEmoteMenuFavourite.active, %bdEmoteMenuEmojis.active
+bdEmoteMenuTwitchContainer: "#bda-qem-twitch-container"
+bdEmoteMenuFavouriteContainer: "#bda-qem-favourite-container"
+bdEmoteMenuInner: .emote-menu-inner
+bdEmoteContainer: .emote-container
+bdEmoteIcon: .emote-icon
