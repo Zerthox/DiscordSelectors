@@ -3,6 +3,7 @@ const pkg = require("./package.json");
 const gulp = require("gulp"),
 	fs = require("fs"),
 	del = require("del"),
+	sort = require("gulp-sort"),
 	concat = require("gulp-concat"),
 	file = require("gulp-file"),
 	header = require("gulp-header"),
@@ -31,6 +32,7 @@ gulp.task("clean", () => del(`${files.out.folder}/**`, {force: true}));
 
 function buildMap() {
 	return gulp.src(files.in)
+		.pipe(sort())
 		.pipe(yaml())
 		.pipe(merge({
 			fileName: files.out.map,
@@ -50,6 +52,7 @@ function buildMap() {
 
 function buildJSON() {
 	return gulp.src(files.in)
+		.pipe(sort())
 		.pipe(yaml())
 		.pipe(merge({
 			fileName: files.out.json
