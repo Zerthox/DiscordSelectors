@@ -1,0 +1,25 @@
+# DEVILBRO
+tooltipBDFDB: .BDFDB-tooltip
+
+# ShowHiddenChannels
+categoryHidden: .container-hidden
+
+# RepoControls
+tooltipRepoControlsEdit: .repocontrols-editicon-tooltip
+tooltipRepoControlsTrash: .repocontrols-trashicon-tooltip
+
+# CreationDate
+creationDate: .creationDate
+
+# JoinedAtDate
+joinedAtDate: .joinedAtDate
+
+# LastMessageDate
+lastMessageDate: .lastMessageDate
+
+# BadgesEverywhere
+badgesEverywhereWrapper: .BE-badges
+badgesEverywhereBadge: .BE-badge
+
+# OwnerTag
+ownerTag: .owner-tag

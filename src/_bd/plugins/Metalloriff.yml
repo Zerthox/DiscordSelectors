@@ -1,0 +1,9 @@
+# METALLORIFF
+
+# DetailedServerTooltips
+serverTooltip: .dst-tooltip
+serverTooltipMin: .dst-min
+serverTooltipIcon: .dst-tooltip-icon
+serverTooltipLabel: .dst-tooltip-label
+serverTooltipLabelOwner: "#dst-tooltip-owner-label"
+serverTooltipLabelMemberCount: "#dst-tooltip-member-count-label"
