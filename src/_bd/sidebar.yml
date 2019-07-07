@@ -2,5 +2,5 @@
 bdSettingsSidebar: "#bd-settings-sidebar"
 bdSettingsSidebarHeader: .ui-tab-bar-header
 bdSettingsSidebarItem: .ui-tab-bar-item
-# bdSettingsSidebarItemSelected: %bdSettingsSidebarItem.selected
+bdSettingsSidebarItemSelected: .ui-tab-bar-item.selected
 bdSettingsSidebarSeparator: .ui-tab-bar-separator

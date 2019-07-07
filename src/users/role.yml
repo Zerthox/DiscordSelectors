@@ -5,4 +5,4 @@ roleRemoveIcon: .roleRemoveIcon-2-TeGW
 roleName: .roleName-32vpEy
 roleAddButton: .addButton-pcyyf6
 # [REMOVED]
-# roleAddButtonPopoutOpen: %roleAddButton.popout-open
+# roleAddButtonPopoutOpen: .addButton-pcyyf6.popout-open

@@ -9,8 +9,7 @@ homeButtonSelected: .selected-wSa2KV
 homeIcon: .homeIcon-tEMBK1
 homePill: .pill-2uzAFe
 friendsOnline: .friendsOnline-2JkivW
-guildSeparator: .guildSeparator-3s64I
-# guildSeparator: .guildSeparator-3s64I, %guild[separator]:after
+guildSeparator: .guildSeparator-3s64I # %guild[separator]:after
 guildContainer: .blobContainer-239gwq
 guildPill: .wrapper-sa6paO
 guildPillItem: .item-2hkk8m

@@ -5,7 +5,7 @@ indicatorAnimating: .animating-1Fb05y
 indicatorNotAnimating: .notAnimating-2EIRej
 indicatorCircleInner: .innerCircle-2Tsscg
 indicatorCircleOuter: .outerCircle-2K0c82
-# indicatorCircle: %indicatorCircleInner, %indicatorCircleOuter
+indicatorCircle: .innerCircle-2Tsscg, .outerCircle-2K0c82
 indicatorExclamationTop: .top-3fo3zT
 indicatorExclamationBottom: .bottom-UE1eOv
-# indicatorExclamation: %indicatorExclamationTop, %indicatorExclamationBottom
+indicatorExclamation: .top-3fo3zT, .bottom-UE1eOv

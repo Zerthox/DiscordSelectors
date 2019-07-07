@@ -7,7 +7,7 @@ userModalTopSectionPlaying: .topSectionPlaying-1J5E4n
 userModalTopSectionStreaming: .topSectionStreaming-1Tpf5X
 userModalTopSectionSpotify: .topSectionSpotify-1lI0-P
 userModalTopSectionXbox: .topSectionXbox-3fWLjS
-# userModalTopSection: %userModalTopSectionNormal, %userModalTopSectionPlaying, %userModalTopSectionStreaming, %userModalTopSectionSpotify, %userModalTopSectionXbox
+userModalTopSection: .topSectionNormal-2-vo2m, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .topSectionSpotify-1lI0-P, .topSectionXbox-3fWLjS
 userModalHeaderInfo: .headerInfo-30uryT
 userModalNameTag: .nameTag-2IFDfL
 userModalUsername: .username-3gJmXY

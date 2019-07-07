@@ -2,11 +2,11 @@
 
 # Voice & Text Channels
 channelContainerDefault: .containerDefault-1ZnADq
-channelContainerDragAfter: .containerDragAfter-1F4fgZ
 channelContainerDragBefore: .containerDragBefore-31UGCO
+channelContainerDragAfter: .containerDragAfter-1F4fgZ
 channelContainerUserOver: .containerUserOver-1U5YnL
-# channelContainerDrag: %channelContainerDragBefore, %channelContainerDragAfter
-# channelContainer: %channelContainerDefault, %channelContainerDrag, %channelContainerUserOver
+channelContainerDrag: .containerDragBefore-31UGCOter, .containerDragAfter-1F4fgZ
+channelContainer: .containerDefault-1ZnADq, .containerDragBefore-31UGCO, .containerDragAfter-1F4fgZ, .containerUserOver-1U5YnL
 channelWrapper: .wrapper-1ucjTd
 channelWrapperUnread: .modeUnread-1zpFdA
 channelWrapperSelected: .modeSelected-1zApJ_

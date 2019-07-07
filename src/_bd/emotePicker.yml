@@ -3,7 +3,7 @@ bdEmoteMenu: "#bda-qem"
 bdEmoteMenuTwitch: "#bda-qem-twitch"
 bdEmoteMenuFavourite: "#bda-qem-favourite"
 bdEmoteMenuEmojis: "#bda-qem-emojis"
-# bdEmoteMenuActive: %bdEmoteMenuTwitch.active, %bdEmoteMenuFavourite.active, %bdEmoteMenuEmojis.active
+bdEmoteMenuActive: "#bda-qem-twitch.active, #bda-qem-favourite.active, #bda-qem-emojis.active"
 bdEmoteMenuTwitchContainer: "#bda-qem-twitch-container"
 bdEmoteMenuFavouriteContainer: "#bda-qem-favourite-container"
 bdEmoteMenuInner: .emote-menu-inner

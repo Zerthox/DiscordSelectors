@@ -3,8 +3,8 @@ categoryContainerDefault: .containerDefault-3GGEv_
 categoryContainerUserOver: .containerUserOver-1Tcb7l
 categoryContainerDragBefore: .containerDragBefore-3Dzc5x
 categoryContainerDragAfter: .containerDragAfter-3TEhpe
-# categoryContainerDrag: %categoryContainerDragBefore, %categoryContainerDragAfter
-# categoryContainer: %categoryContainerDefault, %categoryContainerDrag, %categoryContainerUserOver
+categoryContainerDrag: .containerDragBefore-3Dzc5x, .containerDragAfter-3TEhpe
+categoryContainer: .containerDefault-3GGEv_, .containerDragBefore-3Dzc5x, .containerDragAfter-3TEhpe, .containerUserOver-1Tcb7l
 categoryWrapper: .wrapper-CU3qI5
 categoryWrapperClickable: .clickable-18m--O
 categoryWrapperCollapsed: .collapsed-4WdoJ7

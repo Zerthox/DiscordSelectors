@@ -13,4 +13,4 @@ fileSize: .size-1Arx_I
 fileProgress: .progress-3Rbvu0
 fileProgressBar: .progressBar-3u8FBM
 attachmentCancelButton: .cancelButton-3hVEV6
-# attachmentButton: %attachmentDownloadButton, %attachmentCancelButton
+attachmentButton: .downloadButton-23tKQp, .cancelButton-3hVEV6
