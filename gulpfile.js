@@ -82,18 +82,20 @@ function buildSCSSPlaceholders() {
 		.pipe(gulp.dest(files.out.folder));
 }
 
-// function transpile(obj) {
-// 	const r = [];
-// 	for (const key of Object.keys(obj)) {
-// 		if (obj[key] instanceof Object) {
-// 			r.push(transpile(obj[key]));
-// 		}
-// 		else {
-// 			r.push(`${obj[key]} {\n	@extend %${key} !optional;\n}`);
-// 		}
-// 	}
-// 	return r.join("\n");
-// }
+function transpile(obj, path) {
+	const r = [];
+	for (const k of Object.keys(obj)) {
+		const p = path.slice(0);
+		p.push(k);
+		if (obj[k] instanceof Object) {
+			r.push(transpile(obj[k], p));
+		}
+		else {
+			r.push(`${obj[k]} {\n	@extend %${p.join("-")} !optional;\n}`);
+		}
+	}
+	return r.join("\n");
+}
 
 gulp.task("build", gulp.series("clean", gulp.parallel(buildMap, buildJSON), gulp.parallel(buildSCSSMap, buildSCSSPlaceholders)));
 
