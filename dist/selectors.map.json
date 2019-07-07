@@ -78,7 +78,7 @@
 			"channelContainerDragBefore": ".containerDragBefore-31UGCO",
 			"channelContainerDragAfter": ".containerDragAfter-1F4fgZ",
 			"channelContainerUserOver": ".containerUserOver-1U5YnL",
-			"channelContainerDrag": ".containerDragBefore-31UGCOter, .containerDragAfter-1F4fgZ",
+			"channelContainerDrag": ".containerDragBefore-31UGCO, .containerDragAfter-1F4fgZ",
 			"channelContainer": ".containerDefault-1ZnADq, .containerDragBefore-31UGCO, .containerDragAfter-1F4fgZ, .containerUserOver-1U5YnL",
 			"channelWrapper": ".wrapper-1ucjTd",
 			"channelWrapperUnread": ".modeUnread-1zpFdA",
@@ -182,7 +182,7 @@
 			"privateChannelClose": ".close-3hZ5Ni",
 			"privateChannelsSearchBar": ".searchBar-6Kv8R2",
 			"privateChannelsSearchBarComponent": ".searchBarComponent-32dTOx",
-			"privateChannelsSearchBarInner": ".inner-3ErfO",
+			"privateChannelsSearchBarInner": ".inner-3ErfOT",
 			"privateChannelsSearchBarInput": ".input-1Rv96N"
 		}
 	},
@@ -445,7 +445,7 @@
 	"guilds": {
 		"guilds": {
 			"guildsWrapper": ".wrapper-1Rf91z",
-			"guildsScrollerWrap": ".scrollerWrap-1IAIl",
+			"guildsScrollerWrap": ".scrollerWrap-1IAIlv",
 			"guilds": ".scroller-2TZvBN",
 			"guild": ".listItem-2P_4kh",
 			"homeContainer": ".blob-1PX1Gp",
@@ -978,7 +978,7 @@
 			"inviteStatusOffline": ".statusOffline-37RKt7",
 			"inviteOnlineCount": ".onlineCount-w6_WmG",
 			"inviteButton": ".button-3To2tQ",
-			"inviteButtonAccept": ".lookFilled-1Gx00P.colorGreen-29iAK",
+			"inviteButtonAccept": ".lookFilled-1Gx00P.colorGreen-29iAKY",
 			"inviteButtonJoined": ".lookOutlined-3sRXeN.colorPrimary-3b3xI6",
 			"inviteButtonExpired": ".lookFilled-1Gx00P.colorBrand-3pXr91"
 		},
@@ -1050,7 +1050,7 @@
 			"reaction": ".reaction-1ELvT8",
 			"reactionMe": ".reactionMe-23mbRf",
 			"reactionInner": ".reactionInner-rRPZdY",
-			"reactionCount": ".reactionCount-2ddRo"
+			"reactionCount": ".reactionCount-2ddRoS"
 		},
 		"spoiler": {
 			"spoilerText": ".spoilerText-3p6IlD",
@@ -1195,11 +1195,11 @@
 			"autocompletePopoutSelected": ".selected-1pIgLL"
 		},
 		"connectionInfo": {
-			"onnectionInfo": ".container-2x5lvQ",
-			"onnectionInfoHeader": ".header-2C89wJ",
-			"onnectionInfoSparkline": ".sparkline-3A-8OK",
-			"onnectionInfoBottom": ".popoutBottom-31rU82",
-			"onnectionInfoSecured": ".secured-1Yihly"
+			"connectionInfo": ".container-2x5lvQ",
+			"connectionInfoHeader": ".header-2C89wJ",
+			"connectionInfoSparkline": ".sparkline-3A-8OK",
+			"connectionInfoBottom": ".popoutBottom-31rU82",
+			"connectionInfoSecured": ".secured-1Yihly"
 		},
 		"contextMenu": {
 			"contextMenu": ".contextMenu-HLZMGh",
@@ -1412,7 +1412,7 @@
 			"userPopoutActions": ".actionsUserPopout-2MrzCa",
 			"userPopoutActionsListening": ".listeningActionsUserPopout-Ga2V_N",
 			"userPopoutBody": ".body-3iLsc4",
-			"userPopoutBodyTitle": ".bodyTitle-Y0qMQ",
+			"userPopoutBodyTitle": ".bodyTitle-Y0qMQz",
 			"userPopoutRolesList": ".rolesList-22qj2L",
 			"userPopoutNote": ".note-3HfJZ5",
 			"userPopoutFooter": ".footer-1fjuF6",

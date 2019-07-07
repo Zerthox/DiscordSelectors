@@ -5,7 +5,7 @@ channelContainerDefault: .containerDefault-1ZnADq
 channelContainerDragBefore: .containerDragBefore-31UGCO
 channelContainerDragAfter: .containerDragAfter-1F4fgZ
 channelContainerUserOver: .containerUserOver-1U5YnL
-channelContainerDrag: .containerDragBefore-31UGCOter, .containerDragAfter-1F4fgZ
+channelContainerDrag: .containerDragBefore-31UGCO, .containerDragAfter-1F4fgZ
 channelContainer: .containerDefault-1ZnADq, .containerDragBefore-31UGCO, .containerDragAfter-1F4fgZ, .containerUserOver-1U5YnL
 channelWrapper: .wrapper-1ucjTd
 channelWrapperUnread: .modeUnread-1zpFdA
