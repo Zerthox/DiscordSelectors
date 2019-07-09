@@ -10,14 +10,14 @@ messageGroupBlockedButton: .messageGroupBlockedBtn-1PBBh-
 message: .message-1PNnaP
 messageHeaderCozy: .headerCozy-2N9HOL
 messageHeaderCompact: .headerCompact-3wRt2W
-messageHeader: .headerCozy-2N9HOL, .headerCompact-3wRt2W
+messageHeader: "%messageHeaderCozy, %messageHeaderCompact"
 messageHeaderCozyMeta: .headerCozyMeta-rdohGq
 messageUsernameWrapper: .usernameWrapper-1S-G5O
 messageUsername: .username-_4ZSMR
 messageTimestampCozy: .timestampCozy-2hLAPV
 messageTimestampCompact: .timestampCompact-MHgFLv
 messageSystemTimestamp: .timestamp-1E3uAL
-messageTimestamp: .timestampCozy-2hLAPV, .timestampCompact-MHgFLv, .timestamp-1E3uAL
+messageTimestamp: "%messageTimestampCozy, %messageTimestampCompact, %messageSystemTimestamp"
 messageContent: .content-3dzVd8
 messageSystemContainer: .container-3-pyIM
 mentioned: .isMentioned-N-h9aa
@@ -30,5 +30,5 @@ anchorUnderlineOnHover: .anchorUnderlineOnHover-2ESHQB
 messageButtonContainer: .buttonContainer-KtQ8wc
 messageReactionButton: .reactionBtn-2na4rd
 messageOptionsButton: .button-3Jq0g9
-messageButton: .reactionBtn-2na4rd, .button-3Jq0g9
-messageButtonPopoutOpen: .reactionBtn-2na4rd.popout-open, .button-3Jq0g9.popout-open
+messageButton: "%messageReactionButton, %messageOptionsButton"
+messageButtonPopoutOpen: "%messageReactionButton.popout-open, %messageOptionsButton.popout-open"
