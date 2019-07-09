@@ -1,12 +1,10 @@
 const pkg = require("./package.json");
 
 const gulp = require("gulp"),
-	fs = require("fs"),
 	del = require("del"),
+	rename = require("gulp-rename"),
 	sort = require("gulp-sort"),
-	concat = require("gulp-concat"),
-	file = require("gulp-file"),
-	header = require("gulp-header"),
+	tap = require("gulp-tap"),
 	merge = require("gulp-merge-json"),
 	yaml = require("gulp-yaml");
 
@@ -17,7 +15,7 @@ const files = {
 	],
 	out: {
 		folder: "dist",
-		map: "selectors.map.json",
+		map: "_selectors.map.json",
 		json: "selectors.json",
 		scssMap: "selectorMap.scss",
 		scssPlaceholders: "selectorPlaceholders.scss"
@@ -57,46 +55,71 @@ function buildJSON() {
 		.pipe(merge({
 			fileName: files.out.json
 		}))
+		.pipe(tap((file) => {
+			const content = JSON.parse(file.contents);
+			for (const key in content) {
+				if (typeof content[key] == "string") {
+					while (content[key].indexOf("%") > -1) {
+						const match = content[key].match(/%[\w-]+/)[0];
+						if (match.slice(1) === key) {
+							throw new Error(`Self reference at selector "${key}"`);
+						}
+						const replace = content[match.slice(1)];
+						if (typeof replace != "string") {
+							throw new Error(`Unknown selector reference "${match}" at selector "${key}"`);
+						}
+						content[key] = content[key].replace(match, replace);
+					}
+				}
+			}
+			file.contents = Buffer.from(JSON.stringify(content, null, "\t"));
+		}))
 		.pipe(gulp.dest(files.out.folder));
 }
 
 function buildSCSSMap() {
-	const content = JSON.parse(fs.readFileSync(`${files.out.folder}/${files.out.json}`));
-	const out = [];
-	for (const key of Object.keys(content)) {
-		out.push(`	"${key}": "${content[key]}"`);
-	}
-	return file(files.out.scssMap, `$selectors: (\n${out.join(",\n")}\n);`, {src: true})
-		.pipe(header(`${headers.scss}\n`))
+	return gulp.src(`${files.out.folder}/${files.out.json}`)
+		.pipe(tap((file) => {
+			const content = JSON.parse(file.contents);
+			const out = [];
+			for (const key in content) {
+				out.push(`	"${key}": "${content[key]}"`);
+			}
+			file.contents = Buffer.from(`${headers.scss}\n$selectors: (\n${out.join(",\n")}\n);`);
+		}))
+		.pipe(rename({basename: "", extname: files.out.scssMap}))
 		.pipe(gulp.dest(files.out.folder));
 }
 
 function buildSCSSPlaceholders() {
-	const content = JSON.parse(fs.readFileSync(`${files.out.folder}/${files.out.json}`));
-	const out = [];
-	for (const key of Object.keys(content)) {
-		out.push(`${content[key]} {\n	@extend %${key} !optional;\n}`);
-	}
-	return file(files.out.scssPlaceholders, out.join("\n"), {src: true})
-		.pipe(header(`${headers.scss}\n`))
+	return gulp.src(`${files.out.folder}/${files.out.json}`)
+		.pipe(tap((file) => {
+			const content = JSON.parse(file.contents);
+			const out = [];
+			for (const key in content) {
+				out.push(`${content[key]} {\n	@extend %${key} !optional;\n}`);
+			}
+			file.contents = Buffer.from(`${headers.scss}\n${out.join("\n")}`);
+		}))
+		.pipe(rename({basename: "", extname: files.out.scssPlaceholders}))
 		.pipe(gulp.dest(files.out.folder));
 }
 
-function transpile(obj, path) {
-	const r = [];
-	for (const k of Object.keys(obj)) {
-		const p = path.slice(0);
-		p.push(k);
-		if (obj[k] instanceof Object) {
-			r.push(transpile(obj[k], p));
-		}
-		else {
-			r.push(`${obj[k]} {\n	@extend %${p.join("-")} !optional;\n}`);
-		}
-	}
-	return r.join("\n");
-}
+// function transpile(obj, path) {
+// 	const r = [];
+// 	for (const k of Object.keys(obj)) {
+// 		const p = path.slice(0);
+// 		p.push(k);
+// 		if (obj[k] instanceof Object) {
+// 			r.push(transpile(obj[k], p));
+// 		}
+// 		else {
+// 			r.push(`${obj[k]} {\n	@extend %${p.join("-")} !optional;\n}`);
+// 		}
+// 	}
+// 	return r.join("\n");
+// }
 
-gulp.task("build", gulp.series("clean", gulp.parallel(buildMap, buildJSON), gulp.parallel(buildSCSSMap, buildSCSSPlaceholders)));
+gulp.task("build", gulp.series("clean", gulp.parallel(buildMap, gulp.series(buildJSON, gulp.parallel( buildSCSSMap, buildSCSSPlaceholders)))));
 
 gulp.task("watch", () => gulp.watch(files.in, gulp.series("build")));
