@@ -1,4 +1,4 @@
-/*! Powered by DiscordSelectors v0.1.0 */
+/*! Powered by DiscordSelectors v0.1.1 */
 .appMount-3lHmkl {
 	@extend %appMount !optional;
 }
@@ -422,67 +422,70 @@
 .mention-1f5kbO {
 	@extend %channelsMentionIndicator !optional;
 }
-.button-s03oPN {
+.button-2JbWXs {
 	@extend %panelButton !optional;
 }
-.disabled-1ZY10C {
+.disabled-v9-Ysw {
 	@extend %panelButtonDisabled !optional;
 }
-.buttonIcon-3yYVOH {
+.buttonIcon-onTTxP {
 	@extend %panelButtonIcon !optional;
 }
-.container-2Thooq {
+.container-3baos1 {
 	@extend %accountPanel !optional;
 }
-.avatar-3JE4B3 {
+.avatarWrapper-2yR4wp {
 	@extend %accountPanelAvatarWrapper !optional;
 }
-.inner-1W0Bkn {
+.avatar-SmRMf2 {
 	@extend %accountPanelAvatar !optional;
 }
-.nameTag-LxtdSI {
+.nameTag-3uD-yy {
 	@extend %accountPanelNameTag !optional;
 }
-.usernameContainer-1GWXka {
+.usernameContainer-1fp4nu {
 	@extend %accountPanelUsernameContainer !optional;
 }
-.username-u0EL4I {
+.username-2BIRiC {
 	@extend %accountPanelUsername !optional;
 }
-.discriminator-3W31ZY {
+.discriminator-3-Lf_x {
 	@extend %accountPanelDiscriminator !optional;
 }
-.container-1UB9sr {
+.container-1giJp5 {
 	@extend %connectionPanel !optional;
 }
-.inner-btChU7 {
+.inner-tyMogq {
 	@extend %connectionPanelInner !optional;
 }
-.rtc-connection-status {
+.rtcConnectionStatus-2-jIsi {
 	@extend %rtcConnectionStatus !optional;
 }
-.rtc-connection-status-connected {
+.rtcConnectionStatusConnected-VRZDjy {
 	@extend %rtcConnectionStatusConnected !optional;
 }
-.rtc-connection-status-connecting {
+.rtcConnectionStatusConnecting-3322Pa {
 	@extend %rtcConnectionStatusConnecting !optional;
 }
-.rtc-connection-status-error {
+.rtcConnectionStatusError-2hLzrL {
 	@extend %rtcConnectionStatusError !optional;
 }
-.rtc-connection-quality-fine {
+.rtcConnectionQualityFine-2J6i8z {
 	@extend %rtcConnectionQualityFine !optional;
 }
-.rtc-connection-quality-average {
+.rtcConnectionQualityAverage-3KV0u- {
 	@extend %rtcConnectionQualityAverage !optional;
 }
-.rtc-connection-quality-bad {
+.rtcConnectionQualityBad-1J7mUU {
 	@extend %rtcConnectionQualityBad !optional;
 }
-.ping {
+.ping-2NgC8E {
 	@extend %rtcConnectionPing !optional;
 }
-.channel-SEolQq {
+.description-1MbtwQ {
+	@extend %connectionPanelDescription !optional;
+}
+.channel-1TmDQ6 {
 	@extend %connectionPanelChannel !optional;
 }
 .privateChannels-1nO12o {
@@ -2906,10 +2909,13 @@ pre {
 .keybindShortcut-1BD6Z1 {
 	@extend %keybindShortcut !optional;
 }
-.modal-3v8ziU {
+.modal-yWgWj- {
 	@extend %modal !optional;
 }
-.footer-30ewN8 {
+.header-2tA9Os {
+	@extend %modalHeader !optional;
+}
+.footer-3rDWdC {
 	@extend %modalFooter !optional;
 }
 .root-SR8cQa {
@@ -3530,43 +3536,43 @@ pre {
 .statusGreen-pvYWjA {
 	@extend %statusGreen !optional;
 }
-.popouts-3dRSmE {
+.popouts-2bnG9Z {
 	@extend %popouts !optional;
 }
-.popout-3sVMXz {
+.popout-2iWAc- {
 	@extend %popout !optional;
 }
-.themedPopout-25DgLi {
+.themedPopout-1TrfdI {
 	@extend %themedPopout !optional;
 }
-.popoutTop-3uu9vG {
+.popoutTop-3WSJtH {
 	@extend %popoutTop !optional;
 }
-.popoutTopRight-3BzFIE {
+.popoutTopRight-1lc8Mq {
 	@extend %popoutTopRight !optional;
 }
-.popoutTopLeft-b5Eb3O {
+.popoutTopLeft-3B0mFf {
 	@extend %popoutTopLeft !optional;
 }
-.popoutRight-2ZVwL- {
+.popoutRight-1veHKi {
 	@extend %popoutRight !optional;
 }
-.popoutLeft-30WmrD {
+.popoutLeft-3aViER {
 	@extend %popoutLeft !optional;
 }
-.popoutBottom-1YbShG {
+.popoutBottom-2GAFPg {
 	@extend %popoutBottom !optional;
 }
-.popoutBottomRight-2JrySt {
+.popoutBottomRight-2Rno5S {
 	@extend %popoutBottomRight !optional;
 }
-.popoutBottomLeft-JehOp2 {
-	@extend %popoutBottomleft !optional;
+.popoutBottomLeft-1pG8B4 {
+	@extend %popoutBottomLeft !optional;
 }
-.noArrow-3BYQ0Z {
+.noArrow-2foL9g {
 	@extend %popoutNoArrow !optional;
 }
-.noShadow-321ZPm {
+.noShadow-3pu20z {
 	@extend %popoutNoShadow !optional;
 }
 .header-ykumBX {
@@ -3997,6 +4003,12 @@ pre {
 }
 .wrapper-2F3Zv8 {
 	@extend %avatarWrapper !optional;
+}
+.image-33JSyf {
+	@extend %avatarImage !optional;
+}
+.inner-1W0Bkn {
+	@extend %avatarInner !optional;
 }
 .image-33JSyf, .inner-1W0Bkn {
 	@extend %avatar !optional;
