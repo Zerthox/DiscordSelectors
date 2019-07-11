@@ -1,4 +1,4 @@
-/*! Powered by DiscordSelectors v0.1.0-dev */
+/*! Powered by DiscordSelectors v0.1.0 */
 .appMount-3lHmkl {
 	@extend %appMount !optional;
 }
@@ -148,6 +148,51 @@
 }
 .macButtonMinimize-3EJ6wo {
 	@extend %titlebarMacButtonMinimize !optional;
+}
+#bda-qem {
+	@extend %bdEmoteMenu !optional;
+}
+#bda-qem-twitch {
+	@extend %bdEmoteMenuTwitch !optional;
+}
+#bda-qem-favourite {
+	@extend %bdEmoteMenuFavourite !optional;
+}
+#bda-qem-emojis {
+	@extend %bdEmoteMenuEmojis !optional;
+}
+#bda-qem-twitch.active, #bda-qem-favourite.active, #bda-qem-emojis.active {
+	@extend %bdEmoteMenuActive !optional;
+}
+#bda-qem-twitch-container {
+	@extend %bdEmoteMenuTwitchContainer !optional;
+}
+#bda-qem-favourite-container {
+	@extend %bdEmoteMenuFavouriteContainer !optional;
+}
+.emote-menu-inner {
+	@extend %bdEmoteMenuInner !optional;
+}
+.emote-container {
+	@extend %bdEmoteContainer !optional;
+}
+.emote-icon {
+	@extend %bdEmoteIcon !optional;
+}
+#bd-settings-sidebar {
+	@extend %bdSettingsSidebar !optional;
+}
+.ui-tab-bar-header {
+	@extend %bdSettingsSidebarHeader !optional;
+}
+.ui-tab-bar-item {
+	@extend %bdSettingsSidebarItem !optional;
+}
+.ui-tab-bar-item.selected {
+	@extend %bdSettingsSidebarItemSelected !optional;
+}
+.ui-tab-bar-separator {
+	@extend %bdSettingsSidebarSeparator !optional;
 }
 .containerDefault-3GGEv_ {
 	@extend %categoryContainerDefault !optional;

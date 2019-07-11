@@ -57,6 +57,27 @@
 			"titlebarMacButtonMinimize": ".macButtonMinimize-3EJ6wo"
 		}
 	},
+	"bd": {
+		"emotePicker": {
+			"bdEmoteMenu": "#bda-qem",
+			"bdEmoteMenuTwitch": "#bda-qem-twitch",
+			"bdEmoteMenuFavourite": "#bda-qem-favourite",
+			"bdEmoteMenuEmojis": "#bda-qem-emojis",
+			"bdEmoteMenuActive": "%bdEmoteMenuTwitch.active, %bdEmoteMenuFavourite.active, %bdEmoteMenuEmojis.active",
+			"bdEmoteMenuTwitchContainer": "#bda-qem-twitch-container",
+			"bdEmoteMenuFavouriteContainer": "#bda-qem-favourite-container",
+			"bdEmoteMenuInner": ".emote-menu-inner",
+			"bdEmoteContainer": ".emote-container",
+			"bdEmoteIcon": ".emote-icon"
+		},
+		"sidebar": {
+			"bdSettingsSidebar": "#bd-settings-sidebar",
+			"bdSettingsSidebarHeader": ".ui-tab-bar-header",
+			"bdSettingsSidebarItem": ".ui-tab-bar-item",
+			"bdSettingsSidebarItemSelected": ".ui-tab-bar-item.selected",
+			"bdSettingsSidebarSeparator": ".ui-tab-bar-separator"
+		}
+	},
 	"channels": {
 		"category": {
 			"categoryContainerDefault": ".containerDefault-3GGEv_",
