@@ -1,26 +1,27 @@
 # CHANNEL LIST PANELS
-panelButton: .button-s03oPN
-panelButtonDisabled: .disabled-1ZY10C
-panelButtonIcon: .buttonIcon-3yYVOH
+panelButton: .button-2JbWXs
+panelButtonDisabled: .disabled-v9-Ysw 
+panelButtonIcon: .buttonIcon-onTTxP
 
 # Account Panel
-accountPanel: .container-2Thooq
-accountPanelAvatarWrapper: .avatar-3JE4B3
-accountPanelAvatar: .inner-1W0Bkn
-accountPanelNameTag: .nameTag-LxtdSI
-accountPanelUsernameContainer: .usernameContainer-1GWXka
-accountPanelUsername: .username-u0EL4I
-accountPanelDiscriminator: .discriminator-3W31ZY
+accountPanel: .container-3baos1
+accountPanelAvatarWrapper: .avatarWrapper-2yR4wp
+accountPanelAvatar: .avatar-SmRMf2
+accountPanelNameTag: .nameTag-3uD-yy
+accountPanelUsernameContainer: .usernameContainer-1fp4nu
+accountPanelUsername: .username-2BIRiC
+accountPanelDiscriminator: .discriminator-3-Lf_x
 
 # Connection Panel
-connectionPanel: .container-1UB9sr
-connectionPanelInner: .inner-btChU7
-rtcConnectionStatus: .rtc-connection-status
-rtcConnectionStatusConnected: .rtc-connection-status-connected
-rtcConnectionStatusConnecting: .rtc-connection-status-connecting
-rtcConnectionStatusError: .rtc-connection-status-error
-rtcConnectionQualityFine: .rtc-connection-quality-fine
-rtcConnectionQualityAverage: .rtc-connection-quality-average
-rtcConnectionQualityBad: .rtc-connection-quality-bad
-rtcConnectionPing: .ping
-connectionPanelChannel: .channel-SEolQq
+connectionPanel: .container-1giJp5
+connectionPanelInner: .inner-tyMogq
+rtcConnectionStatus: .rtcConnectionStatus-2-jIsi
+rtcConnectionStatusConnected: .rtcConnectionStatusConnected-VRZDjy
+rtcConnectionStatusConnecting: .rtcConnectionStatusConnecting-3322Pa
+rtcConnectionStatusError: .rtcConnectionStatusError-2hLzrL
+rtcConnectionQualityFine: .rtcConnectionQualityFine-2J6i8z
+rtcConnectionQualityAverage: .rtcConnectionQualityAverage-3KV0u-
+rtcConnectionQualityBad: .rtcConnectionQualityBad-1J7mUU
+rtcConnectionPing: .ping-2NgC8E
+connectionPanelDescription: .description-1MbtwQ
+connectionPanelChannel: .channel-1TmDQ6
