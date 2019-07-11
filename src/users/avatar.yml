@@ -1,6 +1,8 @@
 # AVATAR
 avatarWrapper: .wrapper-2F3Zv8
-avatar: .image-33JSyf, .inner-1W0Bkn
+avatarImage: .image-33JSyf
+avatarInner: .inner-1W0Bkn
+avatar: "%avatarImage, %avatarInner"
 avatarLarge: .avatar-17mtNa
 avatarSmall: .small-5Os1Bb
 avatarOffline: .avatarOffline-3GF27z
