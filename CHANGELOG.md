@@ -1,4 +1,5 @@
 ## Upcoming
+- Add Switch Selectors: `switch`, `switchEnabled`, `switchDisabled`, `switchValue`, `switchValueChecked`, `switchValueUnckecked`, `switchSize`, `switchSizeDefault`, `switchSizeMini`, `switchThemeDefault`, `switchThemeClear`, `switchItem`, `switchCheckbox`, `switchCheckboxEnabled`, `switchCheckboxDisabled`
 - Add `guildHeaderPopoutItemInvite` selector
 
 ## 0.1.1 - (2019-07-11)
