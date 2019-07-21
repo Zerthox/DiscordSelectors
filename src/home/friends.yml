@@ -17,6 +17,7 @@ friendsColumnNameDiscordTag: .discord-tag
 friendsColumnNameUsername: .username
 friendsColumnNameDiscriminator: .discriminator
 friendsColumnStatus: .friendsColumnStatus-ZH4ho2
+friendsTableStatus: .status-mz5rqq
 friendActivityText: .friendActivityText-2lmziy
 friendsColumnGuilds: .friendsColumnGuilds-2we6jb
 friendsGuildIcon: .icon-3o6xvg
