@@ -6,7 +6,6 @@
 			"platformOSX": ".platform-osx",
 			"platformLinux": ".platform-linux",
 			"platformWeb": ".platform-web",
-			"colorblindMode": ".colorblind-mode",
 			"themeDark": ".theme-dark",
 			"themeLight": ".theme-light",
 			"app": ".app-19_DXt",
@@ -436,6 +435,23 @@
 			"spinnerPulsingEllipsis": ".pulsingEllipsis-3YiXRF",
 			"spinnerPulsingEllipsisItem": ".pulsingEllipsisItem-32hhWL"
 		},
+		"switch": {
+			"switch": ".switch-3wwwcV",
+			"switchEnabled": ".switchEnabled-V2WDBB",
+			"switchDisabled": ".switchDisabled-3HsXAJ",
+			"switchValue": ".value-2hFrkk",
+			"switchValueChecked": ".valueChecked-m-4IJZ",
+			"switchValueUnckecked": ".valueUnchecked-2lU_20",
+			"switchSize": ".size-3rFEHg",
+			"switchSizeDefault": ".sizeDefault-2YlOZr",
+			"switchSizeMini": ".sizeMini-1ii40f",
+			"switchThemeDefault": ".themeDefault-24hCdX",
+			"switchThemeClear": ".themeClear-1EjkE4",
+			"switchItem": ".switchItem-2hKKKK",
+			"switchCheckbox": ".checkbox-2tyjJg",
+			"switchCheckboxEnabled": ".checkboxEnabled-CtinEn",
+			"switchCheckboxDisabled": ".checkboxDisabled-1MA81A"
+		},
 		"tabBar": {
 			"tabBarItem": ".item-PXvHYJ",
 			"tabBarItemSelected": ".selected-3s45Ha",
@@ -636,6 +652,7 @@
 			"friendsColumnNameUsername": ".username",
 			"friendsColumnNameDiscriminator": ".discriminator",
 			"friendsColumnStatus": ".friendsColumnStatus-ZH4ho2",
+			"friendsTableStatus": ".status-mz5rqq",
 			"friendActivityText": ".friendActivityText-2lmziy",
 			"friendsColumnGuilds": ".friendsColumnGuilds-2we6jb",
 			"friendsGuildIcon": ".icon-3o6xvg",
@@ -875,8 +892,8 @@
 			"member": ".member-3W1lQa",
 			"memberOffline": ".memberOffline-2lN7gt",
 			"memberPopoutOpen": ".member-3W1lQa.popout-open",
-			"memberContent": ".content-OzHfo4",
 			"memberInner": ".memberInner-2CPc3V",
+			"memberContent": ".memberContent-1MK6T5",
 			"memberNameTag": ".nameTag-3p0yK-",
 			"memberUsername": ".username-1cB_5E",
 			"memberIcon": ".icon-1mmpLU",
@@ -1299,6 +1316,7 @@
 		"guildPopout": {
 			"guildHeaderPopout": ".menu-Sp6bN1",
 			"guildHeaderPopoutItem": ".item-1GzJrl",
+			"guildHeaderPopoutItemInvite": ".invite-271nFU",
 			"guildHeaderPopoutSeparator": ".separator-2zcjq8",
 			"guildHeaderPopoutIcon": ".icon-2doZ3q",
 			"guildHeaderPopoutLabel": ".label-1Y-LW5"
@@ -1416,7 +1434,8 @@
 		"statusPicker": {
 			"statusPicker": ".alt-3btY0e",
 			"statusPickerText": ".statusIconText-3b4TkH",
-			"statusPickerStatus": ".status-3fQvEa",
+			"statusPickerStatus": ".status-3Kz6VS",
+			"statusPickerStatusInner": ".status-1AY8sU",
 			"statusPickerHelper": ".helper-2c73HK"
 		},
 		"userPopout": {
@@ -1511,17 +1530,12 @@
 			"activityTimestamp": ".timestamp-VjAZmo"
 		},
 		"avatar": {
-			"avatarWrapper": ".wrapper-2F3Zv8",
-			"avatarImage": ".image-33JSyf",
-			"avatarInner": ".inner-1W0Bkn",
-			"avatar": "%avatarImage, %avatarInner",
+			"avatarWrapper": ".wrapper-3t9DeA",
+			"avatarMask": ".mask-1l8v16",
+			"avatarImage": ".avatar-VxgULZ",
 			"avatarLarge": ".avatar-17mtNa",
-			"avatarSmall": ".small-5Os1Bb",
 			"avatarOffline": ".avatarOffline-3GF27z",
-			"avatarPopout": ".popout-2fzvxG",
-			"avatarProfile": ".profile-ZOdGIb",
-			"avatarMask": ".mask-3OgeRz",
-			"avatarMaskProfile": ".maskProfile-1ObLFT"
+			"avatarProfile": ".avatar-3EQepX"
 		},
 		"botTag": {
 			"botTag": ".botTag-2WPJ74",
@@ -1535,14 +1549,9 @@
 			"roleAddButton": ".addButton-pcyyf6"
 		},
 		"status": {
-			"status": ".status-oxiHuE",
-			"statusProfile": ".statusProfile-3ynqtt",
-			"statusOnline": ".online-2S838R",
-			"statusIdle": ".idle-3DEnRT",
-			"statusDnd": ".dnd-1_xrcq",
-			"statusOffline": ".offline-3qoTek",
-			"statusInvisible": ".invisible-1kp8Z0",
-			"statusStreaming": ".streaming-2_dnHe"
+			"statusMask": ".mask-1qbNWk",
+			"statusPointerEvents": ".pointerEvents-2zdfdO",
+			"statusCursorDefault": ".cursorDefault-dsQJ1n"
 		}
 	}
 }

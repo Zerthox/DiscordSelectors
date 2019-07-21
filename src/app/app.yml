@@ -4,7 +4,6 @@ platformWin: .platform-win
 platformOSX: .platform-osx
 platformLinux: .platform-linux
 platformWeb: .platform-web
-colorblindMode: .colorblind-mode
 themeDark: .theme-dark
 themeLight: .theme-light
 app: .app-19_DXt
