@@ -1,4 +1,4 @@
-## Upcoming
+## 0.1.2 - (2019-07-21)
 Fixes for the Discord update affecting Avatars & Statuses.
 
 - Update Avatar selectors *(Discord update)*:
