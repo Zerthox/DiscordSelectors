@@ -1,9 +1,4 @@
 # STATUS
-status: .status-oxiHuE
-statusProfile: .statusProfile-3ynqtt
-statusOnline: .online-2S838R
-statusIdle: .idle-3DEnRT
-statusDnd: .dnd-1_xrcq
-statusOffline: .offline-3qoTek
-statusInvisible: .invisible-1kp8Z0
-statusStreaming: .streaming-2_dnHe
+statusMask: .mask-1qbNWk
+statusPointerEvents: .pointerEvents-2zdfdO
+statusCursorDefault: .cursorDefault-dsQJ1n
