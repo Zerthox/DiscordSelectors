@@ -1,12 +1,7 @@
 # AVATAR
-avatarWrapper: .wrapper-2F3Zv8
-avatarImage: .image-33JSyf
-avatarInner: .inner-1W0Bkn
-avatar: "%avatarImage, %avatarInner"
+avatarWrapper: .wrapper-3t9DeA
+avatarMask: .mask-1l8v16
+avatarImage: .avatar-VxgULZ
 avatarLarge: .avatar-17mtNa
-avatarSmall: .small-5Os1Bb
 avatarOffline: .avatarOffline-3GF27z
-avatarPopout: .popout-2fzvxG
-avatarProfile: .profile-ZOdGIb
-avatarMask: .mask-3OgeRz
-avatarMaskProfile: .maskProfile-1ObLFT
+avatarProfile: .avatar-3EQepX
