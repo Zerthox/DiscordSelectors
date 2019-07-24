@@ -23,7 +23,8 @@ guildBadgeLower: .lowerBadge-29hYVK
 guildBadgeUpper: .upperBadge-2XnnGB
 guildBadgeIcon: .iconBadge-2wi9r4
 guildBadgeIconSVG: .icon-3s6X1M
-guildPlaceholder: .dragPlaceholder-D9-haY
+guildPlaceholderMask: .placeholderMask-3K9THS
+guildDragInner: .dragInner-_SHftW
 guildLurking: .lurkingGuild-3ZJ1gi
 circleIconButton: .circleIconButton-jET_ig
 circleIconButtonSelected: .selected-ugP_am

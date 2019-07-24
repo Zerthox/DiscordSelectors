@@ -1,3 +1,8 @@
+## Upcoming
+- Update Guild Placeholder selectors:
+	* Added `guildPlaceholderMask`, `guildDragInner`
+	* Removed `guildPlaceholder`
+
 ## 0.1.2 - (2019-07-21)
 Fixes for the Discord update affecting Avatars & Statuses.
 
