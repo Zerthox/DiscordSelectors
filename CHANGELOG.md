@@ -1,4 +1,8 @@
 ## Upcoming
+Preemptive addition of new Guild Folder selectors and fixes for Guild Placeholder selectors.
+
+- Add Guild Folder selectors:
+	* Added `guildFolderWrapper`, `guildFolderBackground`, `guildFolderBackgroundCollapsed`, `guildFolderBackgroundSelected`, `guildFolder`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderSelected`, `guildFolderIconWrapper`, `guildFolderClosedIconWrapper`, `guildFolderExpandedIconWrapper`, `guildFolderIcon`, `guildFolderIconSizeSmol`, `guildFolderGuildIcon`, `guildFolderNoIcon`, `guildFolderExpandedGuilds`
 - Update Guild Placeholder selectors:
 	* Added `guildPlaceholderMask`, `guildDragInner`
 	* Removed `guildPlaceholder`
