@@ -1,4 +1,4 @@
-## Upcoming
+## 0.1.3 - (2019-07-25)
 Preemptive addition of new Guild Folder selectors and fixes for Guild Placeholder selectors.
 
 - Add Guild Folder selectors:
