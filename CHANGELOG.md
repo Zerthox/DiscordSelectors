@@ -1,3 +1,6 @@
+## Upcoming
+- Add `messageCozy`, `messageCompact` selectors
+
 ## 0.1.3 - (2019-07-25)
 Preemptive addition of new Guild Folder selectors and fixes for Guild Placeholder selectors.
 
@@ -20,8 +23,8 @@ Fixes for the Discord update affecting Avatars & Statuses.
 - Update Status Picker selectors *(Discord update)*:
 	* Updated `statusPickerStatus`
 	* Added `statusPickerStatusInner`
-- Added `friendsTableStatus` selector *(Discord update)*
-- Updated Members List selectors *(Discord update)*:
+- Add `friendsTableStatus` selector *(Discord update)*
+- Update Members List selectors *(Discord update)*:
 	* Added new `memberContent` *(different element!)*
 	* Removed `memberContent`
 - Remove `colorblindMode` selector *(Discord update)*

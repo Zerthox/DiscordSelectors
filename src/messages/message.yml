@@ -8,6 +8,8 @@ messageGroupBlocked: .messageGroupBlocked-3wrQQX
 messageGroupBlockedRevealed: .revealed-1_RKsf
 messageGroupBlockedButton: .messageGroupBlockedBtn-1PBBh-
 message: .message-1PNnaP
+messageCompact: .messageCompact-kQa7ES
+messageCozy: .messageCozy-2JPAPA
 messageHeaderCozy: .headerCozy-2N9HOL
 messageHeaderCompact: .headerCompact-3wRt2W
 messageHeader: "%messageHeaderCozy, %messageHeaderCompact"
