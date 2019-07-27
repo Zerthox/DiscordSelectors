@@ -35,11 +35,8 @@ guildLurking: .lurkingGuild-3ZJ1gi
 guildFolderWrapper: .wrapper-21YSNc
 guildFolderBackground: .expandedFolderBackground-2sPsd-
 guildFolderBackgroundCollapsed: .collapsed-1GMuSb
-guildFolderBackgroundSelected: .selected-2vZ0oV
 guildFolder: .folder-21wGz3
-guildFolderMouseHover: .mouseHover-bMC8x3
-guildFolderSelected: .selected-2vZ0oV
-guildFolderExpanded: .expanded-F1XDEF
+guildFolderHover: .hover-2ji_A7
 guildFolderIconWrapper: .folderIconWrapper-226oVY
 guildFolderClosedIconWrapper: .closedFolderIconWrapper-15K9MK
 guildFolderExpandedIconWrapper: .expandedFolderIconWrapper-1xLaU-
