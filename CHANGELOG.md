@@ -1,4 +1,6 @@
-## Upcoming
+## 0.1.4 - (2019-07-28)
+Fixes for the small changes to Guild Folder selectors and addition of missing Message selectors.
+
 - Update Guild Folder selectors *(Discord update)*:
 	* Added `guildFolderHover`
 	* Removed `guildFolderBackgroundSelected`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderExpanded`

@@ -1,4 +1,4 @@
-/*! Powered by DiscordSelectors v0.1.3 */
+/*! Powered by DiscordSelectors v0.1.4 */
 $selectors: (
 	"appMount": ".appMount-3lHmkl",
 	"platformWin": ".platform-win",
@@ -439,11 +439,8 @@ $selectors: (
 	"guildFolderWrapper": ".wrapper-21YSNc",
 	"guildFolderBackground": ".expandedFolderBackground-2sPsd-",
 	"guildFolderBackgroundCollapsed": ".collapsed-1GMuSb",
-	"guildFolderBackgroundSelected": ".selected-2vZ0oV",
 	"guildFolder": ".folder-21wGz3",
-	"guildFolderMouseHover": ".mouseHover-bMC8x3",
-	"guildFolderSelected": ".selected-2vZ0oV",
-	"guildFolderExpanded": ".expanded-F1XDEF",
+	"guildFolderHover": ".hover-2ji_A7",
 	"guildFolderIconWrapper": ".folderIconWrapper-226oVY",
 	"guildFolderClosedIconWrapper": ".closedFolderIconWrapper-15K9MK",
 	"guildFolderExpandedIconWrapper": ".expandedFolderIconWrapper-1xLaU-",
@@ -963,6 +960,8 @@ $selectors: (
 	"messageGroupBlockedRevealed": ".revealed-1_RKsf",
 	"messageGroupBlockedButton": ".messageGroupBlockedBtn-1PBBh-",
 	"message": ".message-1PNnaP",
+	"messageCompact": ".messageCompact-kQa7ES",
+	"messageCozy": ".messageCozy-2JPAPA",
 	"messageHeaderCozy": ".headerCozy-2N9HOL",
 	"messageHeaderCompact": ".headerCompact-3wRt2W",
 	"messageHeader": ".headerCozy-2N9HOL, .headerCompact-3wRt2W",
