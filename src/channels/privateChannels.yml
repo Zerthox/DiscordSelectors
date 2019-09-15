@@ -1,16 +1,8 @@
 # PRIVATE CHANNELS
 privateChannels: .privateChannels-1nO12o
 privateChannel: .channel-2QD9_O
-privateChannelSelected: .selected-1HYmZZ
 privateChannelIcon: .linkButtonIcon-Mlm5d6
-privateChannelNameWrapper: .nameWrapper-10v56U
-privateChannelName: .name-2WpE7M
-privateChannelNameWithActivity: .nameWithActivity-1ceSyU
-privateChannelActivity: .activity-525YDR
-privateChannelActivityIcon: .activityIcon-1mtTk4
-privateChannelActivityIconForeground: .activityIconForeground-3VIgI8
-privateChannelMobileIndicator: .mobileIndicator-3gyhuE
-privateChannelClose: .close-3hZ5Ni
+privateChannelsHeader: .header-zu8eWb
 
 # Search Bar
 privateChannelsSearchBar: .searchBar-6Kv8R2
