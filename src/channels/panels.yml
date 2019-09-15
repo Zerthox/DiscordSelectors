@@ -1,7 +1,8 @@
 # CHANNEL LIST PANELS
-panelButton: .button-2JbWXs
-panelButtonDisabled: .disabled-v9-Ysw 
-panelButtonIcon: .buttonIcon-onTTxP
+panels: .panels-j1Uci_
+panelButton: .button-14-BFJ
+panelButtonEnabled: .enabled-2cQ-u7
+panelButtonDisabled: .disabled-2iW-fm
 
 # Account Panel
 accountPanel: .container-3baos1
