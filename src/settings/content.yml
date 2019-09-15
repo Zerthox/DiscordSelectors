@@ -1,3 +1,14 @@
 # SETTINGS CONTENT
 settingsContentRegion: .contentRegion-3nDuYy
 settingsRoleItem: .role-3wi9Tf
+
+# Settings Tools
+settingsToolsContainer: .toolsContainer-1edPuj
+settingsTools: .tools-3-3s-N
+settingsCloseButtonContainer: .container-1sFeqf
+settingsCloseButton: .closeButton-1tv5uR
+settingsCloseButtonKeybind: .keybind-KpFkfr
+
+# Account Settings
+settingsUserAccount: .userSettingsAccount-2eMFVR
+settingsUserAccountSecurity: .userSettingsSecurity-3IYeMF
