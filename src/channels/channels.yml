@@ -1,5 +1,5 @@
 # CHANNELS
-channels: .channels-Ie2l6A
+channelsSidebar: .sidebar-2K8pFh
 channelsContainer: .container-PNkimc
 
 # Header
@@ -17,5 +17,6 @@ guildBoostedIconTier1: .iconBackgroundTierOne-2LhaMB
 guildBoostedIconTier2: .iconBackgroundTierTwo-3bCmdc
 guildBoostedIconTier3: .iconBackgroundTierThree-3qw3JX
 guildBoostedIconWithBanner: .withBanner-3j8ruM
+bannerAnimatedContainer: .animatedContainer-1pJv5C
 banner: .banner-1TiK82
 bannerImage: .bannerImage-1jOskm
