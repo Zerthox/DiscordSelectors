@@ -13,9 +13,9 @@ friendsColumnSeparator: .friendsColumnSeparator-3MqtMA
 friendsTableBody: .friendsTableBody-1ZhKif
 friendsRow: .friendsRow-2yicud
 friendsColumnName: .friendsColumnName-1zBOKm
-friendsColumnNameDiscordTag: .discord-tag
-friendsColumnNameUsername: .username
-friendsColumnNameDiscriminator: .discriminator
+friendsColumnNameDiscordTag: .discordTag-1Hozyw
+friendsColumnNameUsername: .username-1r0gCl
+friendsColumnNameDiscriminator: .discriminator-1Ro5o1
 friendsColumnStatus: .friendsColumnStatus-ZH4ho2
 friendsTableStatus: .status-mz5rqq
 friendActivityText: .friendActivityText-2lmziy
