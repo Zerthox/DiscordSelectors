@@ -1,3 +1,42 @@
+## 0.2.0 - Upcoming
+Fixes for the major Discord UI update & additions of missing selectors.  
+Private Channels & Members List now share common classes from the "ListItem" Component.
+
+- Update Channels selectors *(Discord update)*:
+	* Added `channelsSidebar`
+	* Removed `channels`
+- Update Channels List Panels selectors *(Discord update)*:
+	* Added `panels`, `panelButtonEnabled`
+	* Updated `panelButtonDisabled`
+	* Removed `panelButtonIcon`
+- Update Private Channels selectors *(Discord update)*:
+	* Added `privateChannelsHeader`
+	* Removed `privateChannelSelected`, `privateChannelNameWrapper`, `privateChannelName`, `privateChannelNameWithActivity`, `privateChannelActivity`, `privateChannelActivityIcon`, `privateChannelActivityIconForeground`, `privateChannelActivityMobileIndicator`, `privateChannelClose`
+- Add List Item selectors *(Discord update)*:
+	* Added `listItem`, `listItemSelected`, `listItemLayout`, `listItemAvatar`, `listItemContent`, `listItemNameAndDecorators`, `listItemName`, `listItemRoleColor`, `listItemChildren`, `listItemSubText`, `listItemActivity`, `listItemActivityText`, `listItemActivityIcon`, `listItemClose`
+- Update Guild selectors *(Discord update)*:
+	* Added `guildChildWrapper`
+	* Renamed `guildAcronymSelected` to `guildLinkSelected`
+	* Fixed `guildSeparator`
+	* Removed `homeContainer`, `homeButton`, `homeButtonSelected`
+- Update Friends List selectors *(Discord update)*:
+	* Updated `friendsColumnNameDiscordTag`, `friendsColumnNameUsername`, `friendsColumnNameDiscriminator`
+- Update Members List selectors *(Discord update)*:
+	* Updated `memberOffline`
+	* Removed `memberPopoutOpen`, `memberInner`, `memberContent`, `memberNameTag`, `memberUsername`, `memberActivity`, `memberActivityText`, `memberActivityIcon`, `memberActivityIconForeground`, `memberMobileIndicator`
+- Update Message selectors *(Discord update)*:
+	* Added `blockquoteContainer`, `blockquoteDivider`
+	* Removed `message`, `messageCozy`
+- Update ContextMenu selectors *(Discord update)*:
+	* Added `subContextMenu`
+	* Removed `contextMenuInvertChildX`
+- Update Popout selectors *(Discord update)*:
+	* Added `popoutTranslate`, `popoutAnimatorTop`, `popoutAnimatorBottom`, `popoutAnimatorLeft`, `popoutAnimatorRight`, `popoutAnimatorDidRender`, `guildHeaderPopoutItemBase`, `guildHeaderPopoutItemLeave`, `guildHeaderPopoutIconContainer`
+	* Removed `statusPickerItem`
+- Update Settings Content selectors:
+	* Added `settingsToolsContainer`, `settingsTools`, `settingsCloseButtonContainer`, `settingsCloseButton`, `settingsCloseButtonKeybind`, `settingsUserAccount`, `settingsUserAccountSecurity`
+- Add `channelTextAreaButton` selector
+
 ## 0.1.4 - (2019-07-28)
 Fixes for the small changes to Guild Folder selectors and addition of missing Message selectors.
 
