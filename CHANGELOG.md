@@ -1,4 +1,4 @@
-## 0.2.0 - Upcoming
+## 0.2.0 - (2019-09-15)
 Fixes for the major Discord UI update & additions of missing selectors.  
 Private Channels & Members List now share common classes from the "ListItem" Component.
 

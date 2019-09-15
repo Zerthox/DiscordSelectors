@@ -141,7 +141,7 @@
 			"channelNoticeMessageButton": ".btn-11C5_u"
 		},
 		"channels": {
-			"channels": ".channels-Ie2l6A",
+			"channelsSidebar": ".sidebar-2K8pFh",
 			"channelsContainer": ".container-PNkimc",
 			"channelsHeaderContainer": ".container-2Rl01u",
 			"channelsHasDropDown": ".hasDropdown-2invhV",
@@ -157,6 +157,7 @@
 			"guildBoostedIconTier2": ".iconBackgroundTierTwo-3bCmdc",
 			"guildBoostedIconTier3": ".iconBackgroundTierThree-3qw3JX",
 			"guildBoostedIconWithBanner": ".withBanner-3j8ruM",
+			"bannerAnimatedContainer": ".animatedContainer-1pJv5C",
 			"banner": ".banner-1TiK82",
 			"bannerImage": ".bannerImage-1jOskm"
 		},
@@ -165,9 +166,10 @@
 			"channelsMentionIndicator": ".mention-1f5kbO"
 		},
 		"panels": {
-			"panelButton": ".button-2JbWXs",
-			"panelButtonDisabled": ".disabled-v9-Ysw",
-			"panelButtonIcon": ".buttonIcon-onTTxP",
+			"panels": ".panels-j1Uci_",
+			"panelButton": ".button-14-BFJ",
+			"panelButtonEnabled": ".enabled-2cQ-u7",
+			"panelButtonDisabled": ".disabled-2iW-fm",
 			"accountPanel": ".container-3baos1",
 			"accountPanelAvatarWrapper": ".avatarWrapper-2yR4wp",
 			"accountPanelAvatar": ".avatar-SmRMf2",
@@ -191,16 +193,8 @@
 		"privateChannels": {
 			"privateChannels": ".privateChannels-1nO12o",
 			"privateChannel": ".channel-2QD9_O",
-			"privateChannelSelected": ".selected-1HYmZZ",
 			"privateChannelIcon": ".linkButtonIcon-Mlm5d6",
-			"privateChannelNameWrapper": ".nameWrapper-10v56U",
-			"privateChannelName": ".name-2WpE7M",
-			"privateChannelNameWithActivity": ".nameWithActivity-1ceSyU",
-			"privateChannelActivity": ".activity-525YDR",
-			"privateChannelActivityIcon": ".activityIcon-1mtTk4",
-			"privateChannelActivityIconForeground": ".activityIconForeground-3VIgI8",
-			"privateChannelMobileIndicator": ".mobileIndicator-3gyhuE",
-			"privateChannelClose": ".close-3hZ5Ni",
+			"privateChannelsHeader": ".header-zu8eWb",
 			"privateChannelsSearchBar": ".searchBar-6Kv8R2",
 			"privateChannelsSearchBarComponent": ".searchBarComponent-32dTOx",
 			"privateChannelsSearchBarInner": ".inner-3ErfOT",
@@ -286,6 +280,7 @@
 			"channelTextAreaAttachButton": ".attachButton-1UjEWA",
 			"channelTextAreaAttachButtonPlus": ".attachButtonPlus-rUdX-B",
 			"channelTextAreaButtons": ".buttons-205you",
+			"channelTextAreaButton": ".button-2vd_v_",
 			"channelTextAreaEmojiButton": ".emojiButton-3uL3Aw",
 			"channelTextAreaTyping": ".typing-2GQL18",
 			"channelTextAreaTypingText": ".text-1y-e8-",
@@ -411,6 +406,22 @@
 			"indicatorExclamationBottom": ".bottom-UE1eOv",
 			"indicatorExclamation": "%indicatorExclamationTop, %indicatorExclamationBottom"
 		},
+		"listItem": {
+			"listItem": ".container-2Pjhx-",
+			"listItemSelected": ".selected-aXhQR6",
+			"listItemLayout": ".layout-2DM8Md",
+			"listItemAvatar": ".avatar-3uk_u9",
+			"listItemContent": ".content-3QAtGj",
+			"listItemNameAndDecorators": ".nameAndDecorators-5FJ2dg",
+			"listItemName": ".name-uJV0GL",
+			"listItemRoleColor": ".roleColor-36x_Mz",
+			"listItemChildren": ".children-gzQq2t",
+			"listItemSubText": ".subText-1KtqkB",
+			"listItemActivity": ".activity-E-0FeD",
+			"listItemActivityText": ".text-zpzAjW",
+			"listItemActivityIcon": ".icon-2dCXDL",
+			"listItemClose": ".closeButton-2GCmT5"
+		},
 		"scroller": {
 			"scrollerWrap": ".scrollerWrap-2lJEkd",
 			"scroller": ".scroller-2FKFPG"
@@ -487,10 +498,7 @@
 			"guilds": ".scroller-2TZvBN",
 			"guild": ".listItem-2P_4kh",
 			"friendsOnline": ".friendsOnline-2JkivW",
-			"guildSeparator": ".guildSeparator-3s64I",
-			"homeContainer": ".blob-1PX1Gp",
-			"homeButton": ".button-OhfaWu",
-			"homeButtonSelected": ".selected-wSa2KV",
+			"guildSeparator": ".guildSeparator-3s64Iy",
 			"homeIcon": ".homeIcon-tEMBK1",
 			"homePill": ".pill-2uzAFe",
 			"guildContainer": ".blobContainer-239gwq",
@@ -498,9 +506,10 @@
 			"guildPillItem": ".item-2hkk8m",
 			"guildSVG": ".svg-1X37T1",
 			"guildLink": ".wrapper-1BJsBx",
+			"guildLinkSelected": ".selected-bZ3Lue",
 			"guildIcon": ".icon-27yU2q",
+			"guildChildWrapper": ".childWrapper-anI2G9",
 			"guildAcronym": ".acronym-2mOFsV",
-			"guildAcronymSelected": ".selected-bZ3Lue",
 			"guildBadgeWrapper": ".badgeWrapper-3e8pMZ",
 			"guildBadgeLower": ".lowerBadge-29hYVK",
 			"guildBadgeUpper": ".upperBadge-2XnnGB",
@@ -662,9 +671,9 @@
 			"friendsTableBody": ".friendsTableBody-1ZhKif",
 			"friendsRow": ".friendsRow-2yicud",
 			"friendsColumnName": ".friendsColumnName-1zBOKm",
-			"friendsColumnNameDiscordTag": ".discord-tag",
-			"friendsColumnNameUsername": ".username",
-			"friendsColumnNameDiscriminator": ".discriminator",
+			"friendsColumnNameDiscordTag": ".discordTag-1Hozyw",
+			"friendsColumnNameUsername": ".username-1r0gCl",
+			"friendsColumnNameDiscriminator": ".discriminator-1Ro5o1",
 			"friendsColumnStatus": ".friendsColumnStatus-ZH4ho2",
 			"friendsTableStatus": ".status-mz5rqq",
 			"friendActivityText": ".friendActivityText-2lmziy",
@@ -904,20 +913,10 @@
 			"members": ".members-1998pB",
 			"membersGroup": ".membersGroup-v9BXpm",
 			"member": ".member-3W1lQa",
-			"memberOffline": ".memberOffline-2lN7gt",
-			"memberPopoutOpen": ".member-3W1lQa.popout-open",
-			"memberInner": ".memberInner-2CPc3V",
-			"memberContent": ".memberContent-1MK6T5",
-			"memberNameTag": ".nameTag-3p0yK-",
-			"memberUsername": ".username-1cB_5E",
+			"memberOffline": ".offline-34J64g",
 			"memberIcon": ".icon-1mmpLU",
 			"memberOwnerIcon": ".ownerIcon-uZ6mE7",
 			"memberPremiumIcon": ".premiumIcon-2IFPOX",
-			"memberActivity": ".activity-1IYsbk",
-			"memberActivityText": ".activityText-sLG0UL",
-			"memberActivityIcon": ".activityIcon-S3CciC",
-			"memberActivityIconForeground": ".activityIconForeground-qYIPPg",
-			"memberMobileIndicator": ".mobileIndicator-329Gd6",
 			"memberGroupPlaceholder": ".memberGroupsPlaceholder-3mwPub",
 			"memberPlaceholder": ".placeholder-3KRNN9",
 			"memberPlaceholderMultiple": ".multiplePlaceholder-M9zbu6",
@@ -1072,9 +1071,7 @@
 			"messageGroupBlocked": ".messageGroupBlocked-3wrQQX",
 			"messageGroupBlockedRevealed": ".revealed-1_RKsf",
 			"messageGroupBlockedButton": ".messageGroupBlockedBtn-1PBBh-",
-			"message": ".message-1PNnaP",
 			"messageCompact": ".messageCompact-kQa7ES",
-			"messageCozy": ".messageCozy-2JPAPA",
 			"messageHeaderCozy": ".headerCozy-2N9HOL",
 			"messageHeaderCompact": ".headerCompact-3wRt2W",
 			"messageHeader": "%messageHeaderCozy, %messageHeaderCompact",
@@ -1098,7 +1095,9 @@
 			"messageReactionButton": ".reactionBtn-2na4rd",
 			"messageOptionsButton": ".button-3Jq0g9",
 			"messageButton": "%messageReactionButton, %messageOptionsButton",
-			"messageButtonPopoutOpen": "%messageReactionButton.popout-open, %messageOptionsButton.popout-open"
+			"messageButtonPopoutOpen": "%messageReactionButton.popout-open, %messageOptionsButton.popout-open",
+			"blockquoteContainer": ".blockquoteContainer-U5TVEi",
+			"blockquoteDivider": ".blockquoteDivider-2hH8H6"
 		},
 		"reaction": {
 			"reactions": ".reactions-1xb2Ex",
@@ -1259,7 +1258,7 @@
 		},
 		"contextMenu": {
 			"contextMenu": ".contextMenu-HLZMGh",
-			"contextMenuInvertChildX": ".invertChildX-2fq7sY",
+			"subContextMenu": ".subMenuContext-2n_9YM",
 			"contextMenuItemGroup": ".itemGroup-1tL0uz",
 			"contextMenuItem": ".item-1Yvehc",
 			"contextMenuItemDanger": ".danger-2dXSTE",
@@ -1332,8 +1331,11 @@
 		"guildPopout": {
 			"guildHeaderPopout": ".menu-Sp6bN1",
 			"guildHeaderPopoutItem": ".item-1GzJrl",
+			"guildHeaderPopoutItemBase": ".itemBase-1Qj4z6",
 			"guildHeaderPopoutItemInvite": ".invite-271nFU",
+			"guildHeaderPopoutItemLeave": ".leave-1DRJfn",
 			"guildHeaderPopoutSeparator": ".separator-2zcjq8",
+			"guildHeaderPopoutIconContainer": ".iconContainer-2ZxvJk",
 			"guildHeaderPopoutIcon": ".icon-2doZ3q",
 			"guildHeaderPopoutLabel": ".label-1Y-LW5"
 		},
@@ -1376,7 +1378,13 @@
 			"popoutHeader": ".header-ykumBX",
 			"popoutFooter": ".footer-1kmXd4",
 			"layerContainer": ".layerContainer-yqaFcK",
-			"popoutLayer": ".layer-v9HyYc"
+			"popoutLayer": ".layer-v9HyYc",
+			"popoutTranslate": ".translate-2dAEQ6",
+			"popoutAnimatorTop": ".animatorTop-2Y7x2r",
+			"popoutAnimatorBottom": ".animatorBottom-fS5rNO",
+			"popoutAnimatorLeft": ".animatorLeft-1EQxU0",
+			"popoutAnimatorRight": ".animatorRight-3i_YPs",
+			"popoutAnimatorDidRender": ".didRender-33z1u8"
 		},
 		"searchPopout": {
 			"searchPopout": ".container-3ayLPN",
@@ -1448,7 +1456,7 @@
 			"selectPopoutOptionNormal": ".optionNormal-12VR9V"
 		},
 		"statusPicker": {
-			"statusPicker": ".alt-3btY0e",
+			"statusPickerItem": ".statusItem-2uzPIV",
 			"statusPickerText": ".statusIconText-3b4TkH",
 			"statusPickerStatus": ".status-3Kz6VS",
 			"statusPickerStatusInner": ".status-1AY8sU",
@@ -1524,7 +1532,14 @@
 	"settings": {
 		"content": {
 			"settingsContentRegion": ".contentRegion-3nDuYy",
-			"settingsRoleItem": ".role-3wi9Tf"
+			"settingsRoleItem": ".role-3wi9Tf",
+			"settingsToolsContainer": ".toolsContainer-1edPuj",
+			"settingsTools": ".tools-3-3s-N",
+			"settingsCloseButtonContainer": ".container-1sFeqf",
+			"settingsCloseButton": ".closeButton-1tv5uR",
+			"settingsCloseButtonKeybind": ".keybind-KpFkfr",
+			"settingsUserAccount": ".userSettingsAccount-2eMFVR",
+			"settingsUserAccountSecurity": ".userSettingsSecurity-3IYeMF"
 		},
 		"sidebar": {
 			"standardSidebarView": ".standardSidebarView-3F1I7i",
