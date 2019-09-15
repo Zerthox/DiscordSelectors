@@ -4,12 +4,9 @@ guildsScrollerWrap: .scrollerWrap-1IAIlv
 guilds: .scroller-2TZvBN
 guild: .listItem-2P_4kh
 friendsOnline: .friendsOnline-2JkivW
-guildSeparator: .guildSeparator-3s64I
+guildSeparator: .guildSeparator-3s64Iy
 
 # Home Button
-homeContainer: .blob-1PX1Gp
-homeButton: .button-OhfaWu
-homeButtonSelected: .selected-wSa2KV
 homeIcon: .homeIcon-tEMBK1
 homePill: .pill-2uzAFe
 
@@ -19,9 +16,10 @@ guildPill: .wrapper-sa6paO
 guildPillItem: .item-2hkk8m
 guildSVG: .svg-1X37T1
 guildLink: .wrapper-1BJsBx
+guildLinkSelected: .selected-bZ3Lue
 guildIcon: .icon-27yU2q
+guildChildWrapper: .childWrapper-anI2G9
 guildAcronym: .acronym-2mOFsV
-guildAcronymSelected: .selected-bZ3Lue
 guildBadgeWrapper: .badgeWrapper-3e8pMZ
 guildBadgeLower: .lowerBadge-29hYVK
 guildBadgeUpper: .upperBadge-2XnnGB
