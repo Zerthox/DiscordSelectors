@@ -3,20 +3,10 @@ membersWrap: .membersWrap-2h-GB4
 members: .members-1998pB
 membersGroup: .membersGroup-v9BXpm
 member: .member-3W1lQa
-memberOffline: .memberOffline-2lN7gt
-memberPopoutOpen: .member-3W1lQa.popout-open
-memberInner: .memberInner-2CPc3V
-memberContent: .memberContent-1MK6T5
-memberNameTag: .nameTag-3p0yK-
-memberUsername: .username-1cB_5E
+memberOffline: .offline-34J64g
 memberIcon: .icon-1mmpLU
 memberOwnerIcon: .ownerIcon-uZ6mE7
 memberPremiumIcon: .premiumIcon-2IFPOX
-memberActivity: .activity-1IYsbk
-memberActivityText: .activityText-sLG0UL
-memberActivityIcon: .activityIcon-S3CciC
-memberActivityIconForeground: .activityIconForeground-qYIPPg
-memberMobileIndicator: .mobileIndicator-329Gd6
 
 # Placeholders
 memberGroupPlaceholder: .memberGroupsPlaceholder-3mwPub
