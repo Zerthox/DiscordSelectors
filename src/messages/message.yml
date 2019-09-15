@@ -7,9 +7,9 @@ messageGroupLocalBotMessage: .localBotMessage-1cGMdw
 messageGroupBlocked: .messageGroupBlocked-3wrQQX
 messageGroupBlockedRevealed: .revealed-1_RKsf
 messageGroupBlockedButton: .messageGroupBlockedBtn-1PBBh-
-message: .message-1PNnaP
 messageCompact: .messageCompact-kQa7ES
-messageCozy: .messageCozy-2JPAPA
+
+# Message Header
 messageHeaderCozy: .headerCozy-2N9HOL
 messageHeaderCompact: .headerCompact-3wRt2W
 messageHeader: "%messageHeaderCozy, %messageHeaderCompact"
@@ -20,17 +20,29 @@ messageTimestampCozy: .timestampCozy-2hLAPV
 messageTimestampCompact: .timestampCompact-MHgFLv
 messageSystemTimestamp: .timestamp-1E3uAL
 messageTimestamp: "%messageTimestampCozy, %messageTimestampCompact, %messageSystemTimestamp"
+
+# Message Content
 messageContent: .content-3dzVd8
 messageSystemContainer: .container-3-pyIM
 mentioned: .isMentioned-N-h9aa
 markup: .markup-2BOw-j
 messageSystemIcon: .icon-2Po-VO
+
+# Mention
 mention: .wrapper-3WhCwL
 roleMention: .mention
+
+# Link
 anchor: .anchor-3Z-8Bb
 anchorUnderlineOnHover: .anchorUnderlineOnHover-2ESHQB
+
+# Message Buttons
 messageButtonContainer: .buttonContainer-KtQ8wc
 messageReactionButton: .reactionBtn-2na4rd
 messageOptionsButton: .button-3Jq0g9
 messageButton: "%messageReactionButton, %messageOptionsButton"
 messageButtonPopoutOpen: "%messageReactionButton.popout-open, %messageOptionsButton.popout-open"
+
+# Blockquote
+blockquoteContainer: .blockquoteContainer-U5TVEi
+blockquoteDivider: .blockquoteDivider-2hH8H6
