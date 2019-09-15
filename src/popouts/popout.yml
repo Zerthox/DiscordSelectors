@@ -18,3 +18,9 @@ popoutFooter: .footer-1kmXd4
 # NEW POPOUT
 layerContainer: .layerContainer-yqaFcK
 popoutLayer: .layer-v9HyYc
+popoutTranslate: .translate-2dAEQ6
+popoutAnimatorTop: .animatorTop-2Y7x2r
+popoutAnimatorBottom: .animatorBottom-fS5rNO
+popoutAnimatorLeft: .animatorLeft-1EQxU0
+popoutAnimatorRight: .animatorRight-3i_YPs
+popoutAnimatorDidRender: .didRender-33z1u8

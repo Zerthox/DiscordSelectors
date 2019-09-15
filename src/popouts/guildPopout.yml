@@ -1,7 +1,10 @@
 # GUILD HEADER POPOUT
 guildHeaderPopout: .menu-Sp6bN1
 guildHeaderPopoutItem: .item-1GzJrl
+guildHeaderPopoutItemBase: .itemBase-1Qj4z6
 guildHeaderPopoutItemInvite: .invite-271nFU
+guildHeaderPopoutItemLeave: .leave-1DRJfn
 guildHeaderPopoutSeparator: .separator-2zcjq8
+guildHeaderPopoutIconContainer: .iconContainer-2ZxvJk
 guildHeaderPopoutIcon: .icon-2doZ3q
 guildHeaderPopoutLabel: .label-1Y-LW5
