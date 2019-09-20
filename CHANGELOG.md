@@ -1,4 +1,4 @@
-## 0.2.1 - (upcoming)
+## 0.2.1 - (2019-09-21)
 New classes for the Discord update affecting several scrollers.
 
 - Add `privateChannelsScroller` selector
