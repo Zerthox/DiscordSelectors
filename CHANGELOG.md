@@ -1,3 +1,11 @@
+## 0.2.1 - (upcoming)
+New classes for the Discord update affecting several scrollers.
+
+- Add `privateChannelsScroller` selector
+- Add `libraryScroller` selector
+- Add `storeHomeScroller`, `storeListingScroller` selectors
+- Add `settingsSidebarScroller`, `settingsContentScroller` selectors
+
 ## 0.2.0 - (2019-09-15)
 Fixes for the major Discord UI update & additions of missing selectors.  
 Private Channels & Members List now share common classes from the "ListItem" Component.
