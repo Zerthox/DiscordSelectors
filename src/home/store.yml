@@ -1,6 +1,7 @@
 # STORE
 applicationStore: .applicationStore-1pNvnv
 storeHomeWrapper: .homeWrapper-3-Wh5T
+storeHomeScroller: .scroller-9moviB
 storeScroller: .scrollerStore-390omS
 storeHomeBody: .homeBody-3SD9SR
 storeMatureListing: .matureListing-3tyHbV
@@ -111,6 +112,7 @@ mediaCarouselPaginationItemBorder: .overlappingBorder-1-XPGl
 
 # Listing
 storeListingWrapper: .listingWrapper-329f74
+storeListingScroller: .scroller-1JpcIc
 storeListing: .listing-2nUQ4d
 storeListingLarge: .listingLarge-3Rix7u
 storeListingBody: .body-1HEBKj
