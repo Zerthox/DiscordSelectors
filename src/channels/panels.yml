@@ -26,3 +26,13 @@ rtcConnectionQualityBad: .rtcConnectionQualityBad-1J7mUU
 rtcConnectionPing: .ping-2NgC8E
 connectionPanelDescription: .description-1MbtwQ
 connectionPanelChannel: .channel-1TmDQ6
+
+# Activity Panel
+activityPanel: .activityPanel-28dQGo
+activityPanelBody: .body-GmmuPm
+activityPanelGameWrapper: .gameWrapper-1jIQAX
+activityPanelGameWrapperClickable: .clickableGameWrapper-2fpjdx
+activityPanelGameIcon: .gameIcon-gg34Dz
+# activityPanelGameIcon2: .gameIcon-2YB8Et
+activityPanelGameName: .gameName-13va7o
+activityPanelActions: .actions-aUdUfC
