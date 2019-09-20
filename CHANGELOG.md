@@ -3,6 +3,7 @@ Addition of Activity Panel (Go-Live-Panel) selectors.
 
 - Add Activity Panel selectors:
 	* Added `activityPanel`, `activityPanelBody`, `activityPanelGameWrapper`, `activityPanelGameWrapperClickable`, `activityPanelGameIcon`, `activityPanelGameName`, `activityPanelActions`
+- Add `channelTextAreaAttachButtonDivider` selector
 
 ## 0.2.1 - (2019-09-21)
 New classes for the Discord update affecting several scrollers.
