@@ -1,5 +1,5 @@
-## 0.2.2 - (upcoming)
-Addition of Activity Panel (Go-Live-Panel) selectors.
+## 0.2.2 - (2019-09-21)
+Addition of Activity Panel (Go-Live-Panel) selectors & updates for the Friends Table Action Button selectors.
 
 - Add Activity Panel selectors:
 	* Added `activityPanel`, `activityPanelBody`, `activityPanelGameWrapper`, `activityPanelGameWrapperClickable`, `activityPanelGameIcon`, `activityPanelGameName`, `activityPanelActions`
