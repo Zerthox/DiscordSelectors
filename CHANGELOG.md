@@ -3,6 +3,10 @@ Addition of Activity Panel (Go-Live-Panel) selectors.
 
 - Add Activity Panel selectors:
 	* Added `activityPanel`, `activityPanelBody`, `activityPanelGameWrapper`, `activityPanelGameWrapperClickable`, `activityPanelGameIcon`, `activityPanelGameName`, `activityPanelActions`
+- Update Friends Table Action selectors:
+	* Added `friendsActionDisabled`, `friendsActionDeny`
+	* Updated `friendsActionAccept`
+	* Removed `friendsActionAdd`, `friendsActionVideoCall`, `friendsActionVoiceCall`, `friendsActionRemove`, `friendsActionCancel`, `friendsActionIgnore`
 - Add `channelTextAreaAttachButtonDivider` selector
 - Add `userPopoutBodyInner` selector
 

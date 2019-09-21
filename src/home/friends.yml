@@ -23,13 +23,9 @@ friendsColumnGuilds: .friendsColumnGuilds-2we6jb
 friendsGuildIcon: .icon-3o6xvg
 friendsColumnActions: .friendsColumnActions-1LT3_M
 friendsAction: .friendsAction-__WNE9
-friendsActionAdd: .friendsActionAdd-3Hu_65
-friendsActionVideoCall: .friendsActionVideoCall-2_PKeP
-friendsActionVoiceCall: .friendsActionVoiceCall-3EdPsR
-friendsActionRemove: .friendsActionRemove-qu8nnl
-friendsActionAccept: .friendsActionAccept-3mkemT
-friendsActionCancel: .friendsActionCancel-3AP4ex
-friendsActionIgnore: .friendsActionIgnore-1-RPlq
+friendsActionDisabled: .disabled-XO9U5M
+friendsActionAccept: .actionAccept-zzNNTu
+friendsActionDeny: .actionDeny-18IZiW
 friendsTableBodyText: .text-GwUZgS
 friendsTableBodyTitle: .title-2BxgL2
 friendsTableBodyImage: .image-1GzsFd
