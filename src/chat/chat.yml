@@ -1,6 +1,7 @@
 # CHAT
 chat: .chat-3bRxxu
-chatContent: .content-yTz4x3
+chatContentWrapper: .content-yTz4x3
+chatContent: .chatContent-a9vAAp
 chatBase: .base-34jWEe
 
 # Gated Chat

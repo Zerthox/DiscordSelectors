@@ -1,3 +1,10 @@
+## 0.2.3 - (upcoming)
+Small fix for the changes to chat.
+
+- Update Chat selectors:
+	- Added `chatContent`
+	- Renamed `chatContent` to `chatContentWrapper`
+
 ## 0.2.2 - (2019-09-21)
 Addition of Activity Panel (Go-Live-Panel) selectors & updates for the Friends Table Action Button selectors.
 
