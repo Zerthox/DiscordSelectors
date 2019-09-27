@@ -128,7 +128,15 @@
 			"voiceUserNameSpeaking": ".usernameSpeaking-2xbKKh",
 			"voiceUserIcons": ".icons-3q-_6z",
 			"voiceUserIconSpacing": ".iconSpacing-3LzVxF",
-			"voiceUserIcon": ".icon-3BcwQu"
+			"voiceUserIcon": ".icon-3BcwQu",
+			"userSummaryContainer": ".container-23E4rK",
+			"userSummaryIcon": ".icon-1tDorc",
+			"userSummaryAvatarContainer": ".avatarContainer-3CQrif",
+			"userSummaryAvatarContainerMasked": ".avatarContainerMasked-PIJ-3L",
+			"userSummaryAvatar": ".avatar-3bWpYy",
+			"userSummaryAvatarClickable": ".clickableAvatar-1wQpeh",
+			"userSummaryEmptyUser": ".emptyUser-7txhlW",
+			"userSummaryMoreUsers": ".moreUsers-7v8yWY"
 		},
 		"channelNotice": {
 			"channelNotices": ".channelNotices-41mJbj",
@@ -227,7 +235,8 @@
 		},
 		"chat": {
 			"chat": ".chat-3bRxxu",
-			"chatContent": ".content-yTz4x3",
+			"chatContentWrapper": ".content-yTz4x3",
+			"chatContent": ".chatContent-a9vAAp",
 			"chatBase": ".base-34jWEe",
 			"chatGatedContent": ".gatedContent-3-B7qB",
 			"chatGatedImage": ".image-2LqJex",
