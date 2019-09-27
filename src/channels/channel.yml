@@ -38,3 +38,13 @@ voiceUserNameSpeaking: .usernameSpeaking-2xbKKh
 voiceUserIcons: .icons-3q-_6z
 voiceUserIconSpacing: .iconSpacing-3LzVxF
 voiceUserIcon: .icon-3BcwQu
+
+# User Summary
+userSummaryContainer: .container-23E4rK
+userSummaryIcon: .icon-1tDorc
+userSummaryAvatarContainer: .avatarContainer-3CQrif
+userSummaryAvatarContainerMasked: .avatarContainerMasked-PIJ-3L
+userSummaryAvatar: .avatar-3bWpYy
+userSummaryAvatarClickable: .clickableAvatar-1wQpeh
+userSummaryEmptyUser: .emptyUser-7txhlW
+userSummaryMoreUsers: .moreUsers-7v8yWY

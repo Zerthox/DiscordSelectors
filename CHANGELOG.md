@@ -1,7 +1,9 @@
 ## 0.2.3 - (upcoming)
-Small fix for the changes to chat.
+Addition of User Summary selectors & small fix for the changes to chat.
 
-- Update Chat selectors:
+- Add User Summary selectors:
+	- Added `userSummaryContainer`, `userSummaryIcon`, `userSummaryAvatarContainer`, `userSummaryAvatarContainerMasked`, `userSummaryAvatar`, `userSummaryAvatarClickable`, `userSummaryEmptyUser`, `userSummaryMoreUsers`
+- Update Chat selectors *(Discord update)*:
 	- Added `chatContent`
 	- Renamed `chatContent` to `chatContentWrapper`
 
@@ -9,11 +11,11 @@ Small fix for the changes to chat.
 Addition of Activity Panel (Go-Live-Panel) selectors & updates for the Friends Table Action Button selectors.
 
 - Add Activity Panel selectors:
-	* Added `activityPanel`, `activityPanelBody`, `activityPanelGameWrapper`, `activityPanelGameWrapperClickable`, `activityPanelGameIcon`, `activityPanelGameName`, `activityPanelActions`
+	- Added `activityPanel`, `activityPanelBody`, `activityPanelGameWrapper`, `activityPanelGameWrapperClickable`, `activityPanelGameIcon`, `activityPanelGameName`, `activityPanelActions`
 - Update Friends Table Action selectors:
-	* Added `friendsActionDisabled`, `friendsActionDeny`
-	* Updated `friendsActionAccept`
-	* Removed `friendsActionAdd`, `friendsActionVideoCall`, `friendsActionVoiceCall`, `friendsActionRemove`, `friendsActionCancel`, `friendsActionIgnore`
+	- Added `friendsActionDisabled`, `friendsActionDeny`
+	- Updated `friendsActionAccept`
+	- Removed `friendsActionAdd`, `friendsActionVideoCall`, `friendsActionVoiceCall`, `friendsActionRemove`, `friendsActionCancel`, `friendsActionIgnore`
 - Add `channelTextAreaAttachButtonDivider` selector
 - Add `userPopoutBodyInner` selector
 
@@ -30,77 +32,77 @@ Fixes for the major Discord UI update & additions of missing selectors.
 Private Channels & Members List now share common classes from the "ListItem" Component.
 
 - Update Channels selectors *(Discord update)*:
-	* Added `channelsSidebar`
-	* Removed `channels`
+	- Added `channelsSidebar`
+	- Removed `channels`
 - Update Channels List Panels selectors *(Discord update)*:
-	* Added `panels`, `panelButtonEnabled`
-	* Updated `panelButtonDisabled`
-	* Removed `panelButtonIcon`
+	- Added `panels`, `panelButtonEnabled`
+	- Updated `panelButtonDisabled`
+	- Removed `panelButtonIcon`
 - Update Private Channels selectors *(Discord update)*:
-	* Added `privateChannelsHeader`
-	* Removed `privateChannelSelected`, `privateChannelNameWrapper`, `privateChannelName`, `privateChannelNameWithActivity`, `privateChannelActivity`, `privateChannelActivityIcon`, `privateChannelActivityIconForeground`, `privateChannelActivityMobileIndicator`, `privateChannelClose`
+	- Added `privateChannelsHeader`
+	- Removed `privateChannelSelected`, `privateChannelNameWrapper`, `privateChannelName`, `privateChannelNameWithActivity`, `privateChannelActivity`, `privateChannelActivityIcon`, `privateChannelActivityIconForeground`, `privateChannelActivityMobileIndicator`, `privateChannelClose`
 - Add List Item selectors *(Discord update)*:
-	* Added `listItem`, `listItemSelected`, `listItemLayout`, `listItemAvatar`, `listItemContent`, `listItemNameAndDecorators`, `listItemName`, `listItemRoleColor`, `listItemChildren`, `listItemSubText`, `listItemActivity`, `listItemActivityText`, `listItemActivityIcon`, `listItemClose`
+	- Added `listItem`, `listItemSelected`, `listItemLayout`, `listItemAvatar`, `listItemContent`, `listItemNameAndDecorators`, `listItemName`, `listItemRoleColor`, `listItemChildren`, `listItemSubText`, `listItemActivity`, `listItemActivityText`, `listItemActivityIcon`, `listItemClose`
 - Update Guild selectors *(Discord update)*:
-	* Added `guildChildWrapper`
-	* Renamed `guildAcronymSelected` to `guildLinkSelected`
-	* Fixed `guildSeparator`
-	* Removed `homeContainer`, `homeButton`, `homeButtonSelected`
+	- Added `guildChildWrapper`
+	- Renamed `guildAcronymSelected` to `guildLinkSelected`
+	- Fixed `guildSeparator`
+	- Removed `homeContainer`, `homeButton`, `homeButtonSelected`
 - Update Friends List selectors *(Discord update)*:
-	* Updated `friendsColumnNameDiscordTag`, `friendsColumnNameUsername`, `friendsColumnNameDiscriminator`
+	- Updated `friendsColumnNameDiscordTag`, `friendsColumnNameUsername`, `friendsColumnNameDiscriminator`
 - Update Members List selectors *(Discord update)*:
-	* Updated `memberOffline`
-	* Removed `memberPopoutOpen`, `memberInner`, `memberContent`, `memberNameTag`, `memberUsername`, `memberActivity`, `memberActivityText`, `memberActivityIcon`, `memberActivityIconForeground`, `memberMobileIndicator`
+	- Updated `memberOffline`
+	- Removed `memberPopoutOpen`, `memberInner`, `memberContent`, `memberNameTag`, `memberUsername`, `memberActivity`, `memberActivityText`, `memberActivityIcon`, `memberActivityIconForeground`, `memberMobileIndicator`
 - Update Message selectors *(Discord update)*:
-	* Added `blockquoteContainer`, `blockquoteDivider`
-	* Removed `message`, `messageCozy`
+	- Added `blockquoteContainer`, `blockquoteDivider`
+	- Removed `message`, `messageCozy`
 - Update ContextMenu selectors *(Discord update)*:
-	* Added `subContextMenu`
-	* Removed `contextMenuInvertChildX`
+	- Added `subContextMenu`
+	- Removed `contextMenuInvertChildX`
 - Update Popout selectors *(Discord update)*:
-	* Added `popoutTranslate`, `popoutAnimatorTop`, `popoutAnimatorBottom`, `popoutAnimatorLeft`, `popoutAnimatorRight`, `popoutAnimatorDidRender`, `guildHeaderPopoutItemBase`, `guildHeaderPopoutItemLeave`, `guildHeaderPopoutIconContainer`
-	* Removed `statusPickerItem`
+	- Added `popoutTranslate`, `popoutAnimatorTop`, `popoutAnimatorBottom`, `popoutAnimatorLeft`, `popoutAnimatorRight`, `popoutAnimatorDidRender`, `guildHeaderPopoutItemBase`, `guildHeaderPopoutItemLeave`, `guildHeaderPopoutIconContainer`
+	- Removed `statusPickerItem`
 - Update Settings Content selectors:
-	* Added `settingsToolsContainer`, `settingsTools`, `settingsCloseButtonContainer`, `settingsCloseButton`, `settingsCloseButtonKeybind`, `settingsUserAccount`, `settingsUserAccountSecurity`
+	- Added `settingsToolsContainer`, `settingsTools`, `settingsCloseButtonContainer`, `settingsCloseButton`, `settingsCloseButtonKeybind`, `settingsUserAccount`, `settingsUserAccountSecurity`
 - Add `channelTextAreaButton` selector
 
 ## 0.1.4 - (2019-07-28)
 Fixes for the small changes to Guild Folder selectors and addition of missing Message selectors.
 
 - Update Guild Folder selectors *(Discord update)*:
-	* Added `guildFolderHover`
-	* Removed `guildFolderBackgroundSelected`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderExpanded`
+	- Added `guildFolderHover`
+	- Removed `guildFolderBackgroundSelected`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderExpanded`
 - Add `messageCozy`, `messageCompact` selectors
 
 ## 0.1.3 - (2019-07-25)
 Preemptive addition of new Guild Folder selectors and fixes for Guild Placeholder selectors.
 
 - Add Guild Folder selectors:
-	* Added `guildFolderWrapper`, `guildFolderBackground`, `guildFolderBackgroundCollapsed`, `guildFolderBackgroundSelected`, `guildFolder`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderSelected`, `guildFolderIconWrapper`, `guildFolderClosedIconWrapper`, `guildFolderExpandedIconWrapper`, `guildFolderIcon`, `guildFolderIconSizeSmol`, `guildFolderGuildIcon`, `guildFolderNoIcon`, `guildFolderExpandedGuilds`
+	- Added `guildFolderWrapper`, `guildFolderBackground`, `guildFolderBackgroundCollapsed`, `guildFolderBackgroundSelected`, `guildFolder`, `guildFolderMouseHover`, `guildFolderSelected`, `guildFolderSelected`, `guildFolderIconWrapper`, `guildFolderClosedIconWrapper`, `guildFolderExpandedIconWrapper`, `guildFolderIcon`, `guildFolderIconSizeSmol`, `guildFolderGuildIcon`, `guildFolderNoIcon`, `guildFolderExpandedGuilds`
 - Update Guild Placeholder selectors:
-	* Added `guildPlaceholderMask`, `guildDragInner`
-	* Removed `guildPlaceholder`
+	- Added `guildPlaceholderMask`, `guildDragInner`
+	- Removed `guildPlaceholder`
 
 ## 0.1.2 - (2019-07-21)
 Fixes for the Discord update affecting Avatars & Statuses.
 
 - Update Avatar selectors *(Discord update)*:
-	* Updated `avatarWrapper`, `avatarMask`, `avatarImage`, `avatarProfile`
-	* Removed `avatar`, `avatarInner`, `avatarSmall`, `avatarPopout`, `avatarMaskProfile`
+	- Updated `avatarWrapper`, `avatarMask`, `avatarImage`, `avatarProfile`
+	- Removed `avatar`, `avatarInner`, `avatarSmall`, `avatarPopout`, `avatarMaskProfile`
 - Update Status selectors *(Discord update)*:
-	* Updated `statusMask`
-	* Added `statusPointerEvents`, `statusCursorDefault`
-	* Removed `status`, `statusProfile`, `statusOnline`, `statusIdle`, `statusDnd`, `statusOffline`, `statusInvisible`, `statusStreaming`
+	- Updated `statusMask`
+	- Added `statusPointerEvents`, `statusCursorDefault`
+	- Removed `status`, `statusProfile`, `statusOnline`, `statusIdle`, `statusDnd`, `statusOffline`, `statusInvisible`, `statusStreaming`
 - Update Status Picker selectors *(Discord update)*:
-	* Updated `statusPickerStatus`
-	* Added `statusPickerStatusInner`
+	- Updated `statusPickerStatus`
+	- Added `statusPickerStatusInner`
 - Add `friendsTableStatus` selector *(Discord update)*
 - Update Members List selectors *(Discord update)*:
-	* Added new `memberContent` *(different element!)*
-	* Removed `memberContent`
+	- Added new `memberContent` *(different element!)*
+	- Removed `memberContent`
 - Remove `colorblindMode` selector *(Discord update)*
 - Add Switch selectors:
-	* Added `switch`, `switchEnabled`, `switchDisabled`, `switchValue`, `switchValueChecked`, `switchValueUnckecked`, `switchSize`, `switchSizeDefault`, `switchSizeMini`, `switchThemeDefault`, `switchThemeClear`, `switchItem`, `switchCheckbox`, `switchCheckboxEnabled`, `switchCheckboxDisabled`
+	- Added `switch`, `switchEnabled`, `switchDisabled`, `switchValue`, `switchValueChecked`, `switchValueUnckecked`, `switchSize`, `switchSizeDefault`, `switchSizeMini`, `switchThemeDefault`, `switchThemeClear`, `switchItem`, `switchCheckbox`, `switchCheckboxEnabled`, `switchCheckboxDisabled`
 - Add `guildHeaderPopoutItemInvite` selector
 
 ## 0.1.1 - (2019-07-11)
