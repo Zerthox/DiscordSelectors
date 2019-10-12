@@ -1,3 +1,8 @@
+## 0.2.4 - (upcoming)
+Fixes for the discord update adding the BG element & rerolling classes for the Members List & List Item Component.
+
+- Add `bg` selector *(Discord update)*
+
 ## 0.2.3 - (2019-09-27)
 Addition of User Summary selectors & small fix for the changes to chat.
 
