@@ -31,8 +31,22 @@ function toSass(obj, ind = 0) {
 	}
 }
 
+function countPrimitives(obj) {
+	if (typeof obj === "object") {
+		Object.keys(obj).map((k) => {
+			if (parseInt(k)) {
+				console.log(Object.keys(obj[k]).length);
+			}
+		});
+		return Object.values(obj).reduce((a, b) => a + countPrimitives(b), 0);
+	}
+	else {
+		return 1;
+	}
+}
+
 if (args.count) {
-	console.log(Object.values(modules).reduce((a, b) => a + Object.keys(b).length, 0));
+	console.log(countPrimitives(modules));
 }
 else {
 	fs.writeFileSync(path.resolve(__dirname, "../lib/_map.scss"), `$map: ${toSass(modules)};`);
