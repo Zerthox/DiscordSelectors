@@ -4,7 +4,38 @@ const path = require("path"),
 
 const args = minimist(process.argv);
 
-const modules = require("../src/cssModules.json");
+const components = require("../src/cssModules.json");
+
+function mergeModules(components) {
+	for (const [id, component] of Object.entries(components)) {
+		const keys = Object.keys(component),
+			values = Object.values(component);
+		if (keys.length === 1) {
+			components[id] = values[0];
+		}
+		else {
+			let merge = true;
+			for (const module of values) {
+				for (const other of values) {
+					if (other !== module) {
+						merge = Object.keys(module).every((key) => !(key in other) || other[key] === module[key]);
+					}
+				}
+			}
+			if (merge) {
+				components[id] = values.reduce((prev, el) => Object.assign(prev, el), {});
+			}
+			else {
+				components[id] = values.reduce((prev, el) => Object.keys(prev).length > Object.keys(el).length ? prev : el);
+				for (let i = 0; i < values.length; i++) {
+					if (values[i] !== components[id]) {
+						components[id][`${keys[i]}`] = values[i];
+					}
+				}
+			}
+		}
+	}
+}
 
 function toSass(obj, ind = 0) {
 	switch (typeof obj) {
@@ -31,23 +62,24 @@ function toSass(obj, ind = 0) {
 	}
 }
 
-function countPrimitives(obj) {
-	if (typeof obj === "object") {
-		Object.keys(obj).map((k) => {
-			if (parseInt(k)) {
-				console.log(Object.keys(obj[k]).length);
+function countUniqueIds(components) {
+	const counted = {};
+	let count = 0;
+	for (const module of Object.values(components)) {
+		for (const [id, classes] of Object.entries(module)) {
+			if (!counted[id]) {
+				count += Object.keys(classes).length;
+				counted[id] = true;
 			}
-		});
-		return Object.values(obj).reduce((a, b) => a + countPrimitives(b), 0);
+		}
 	}
-	else {
-		return 1;
-	}
+	return count;
 }
 
 if (args.count) {
-	console.log(countPrimitives(modules));
+	console.log(countUniqueIds(components));
 }
 else {
-	fs.writeFileSync(path.resolve(__dirname, "../lib/_map.scss"), `$map: ${toSass(modules)};`);
+	mergeModules(components);
+	fs.writeFileSync(path.resolve(__dirname, "../lib/_map.scss"), `$map: ${toSass(components)};`);
 }
