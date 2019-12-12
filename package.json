@@ -1,6 +1,6 @@
 {
 	"name": "discordselectors",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"description": "Collection of CSS Selectors for Discord.",
 	"scripts": {
 		"build": "node scripts/build.js"
