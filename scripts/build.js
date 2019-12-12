@@ -6,10 +6,17 @@ const args = minimist(process.argv);
 
 const components = require("../src/cssModules.json");
 
-function mergeModules(components) {
+function preprocess(components) {
 	for (const [id, component] of Object.entries(components)) {
 		const keys = Object.keys(component),
 			values = Object.values(component);
+		for (const module of values) {
+			for (const key of Object.keys(module)) {
+				if (module[key].match(/^[a-zA-z]/)) {
+					module[key] = `.${module[key].replace(/\s/g, ".")}`;
+				}
+			}
+		}
 		if (keys.length === 1) {
 			components[id] = values[0];
 		}
@@ -80,6 +87,6 @@ if (args.count) {
 	console.log(countUniqueIds(components));
 }
 else {
-	mergeModules(components);
+	preprocess(components);
 	fs.writeFileSync(path.resolve(__dirname, "../lib/_map.scss"), `$map: ${toSass(components)};`);
 }
