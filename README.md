@@ -5,4 +5,4 @@
 
 # DiscordSelectors [![Releases][release-badge]][release-link] [![License][license-badge]][license-link]
 
-Collection of 5200+ CSS Selectors for Discord.
+Collection of 5000+ CSS Selectors for Discord.
