@@ -19,6 +19,6 @@
 		"sass": "^1.23.7"
 	},
 	"devDependencies": {
-		"minimist": "^1.2.0"
+		"minimist": "^1.2.2"
 	}
 }
